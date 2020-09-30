@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5c4e518-f090-405d-9387-bf2a1e3e0317" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LeetcodeProb" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XXLgcndaV71lj5jHtiVHfVTGGl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+  </component>
+  <component name="RunManager" selected="Application.WordLadder">
+    <configuration name="ConvertSortedArrayToBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiyiwii.leetcode.editor.en.ConvertSortedArrayToBinarySearchTree" />
+      <module name="LeetcodeProb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiyiwii.leetcode.editor.en.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationsIi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiyiwii.leetcode.editor.en.PermutationsIi" />
+      <module name="LeetcodeProb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiyiwii.leetcode.editor.en.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiyiwii.leetcode.editor.en.Subsets" />
+      <module name="LeetcodeProb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiyiwii.leetcode.editor.en.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiyiwii.leetcode.editor.en.WordLadder" />
+      <module name="LeetcodeProb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiyiwii.leetcode.editor.en.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordLadder" />
+        <item itemvalue="Application.PermutationsIi" />
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.ConvertSortedArrayToBinarySearchTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/course_cs/cse6250_redo_project" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/course_cs/mooc_functional_scala/example" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/gt_CSE/CSE6250_bdHealthcare/903077172-dcai34-hw4" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/gt_CSE/CSE6250_bdHealthcare/cse6250_project_final_donghua" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/gt_CSE/CSE6250_bdHealthcare/homework3/code" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/gt_CSE/CSE6250_bdHealthcare/homework4" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/gt_CSE/CSE6250_bdHealthcare/project/code" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/gt_CSE/big_data_analytics_for_healthcare-master/projects/homework4/code" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/gt_CSE/cs_projects/HelloWorld" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/gt_CSE/cse_peer_ref/CSE-6250-Final_team74/scala" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/gt_CSE/mooc_functional_scala/example" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5c4e518-f090-405d-9387-bf2a1e3e0317" name="Default Changelist" comment="" />
+      <created>1581187604491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581187604491</updated>
+      <workItem from="1581187605724" duration="3852000" />
+      <workItem from="1581869906798" duration="22000" />
+      <workItem from="1581869952246" duration="1653000" />
+      <workItem from="1592669940741" duration="1661000" />
+      <workItem from="1595003292529" duration="13000" />
+      <workItem from="1595708781930" duration="1264000" />
+      <workItem from="1595733950950" duration="288000" />
+      <workItem from="1595734250829" duration="121000" />
+      <workItem from="1595734384730" duration="23000" />
+      <workItem from="1595734419700" duration="127000" />
+      <workItem from="1595734564329" duration="1270000" />
+      <workItem from="1596019514654" duration="1328000" />
+      <workItem from="1596101595632" duration="290000" />
+      <workItem from="1596144555181" duration="789000" />
+      <workItem from="1596145422910" duration="3815000" />
+      <workItem from="1596189729534" duration="817000" />
+      <workItem from="1596190714645" duration="17255000" />
+      <workItem from="1599754772005" duration="575000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="409" height="466" key="DebuggerActiveHint" timestamp="1596192503879">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="409" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1596192503879" />
+    <state width="754" height="219" key="GridCell.Tab.0.bottom" timestamp="1598889644587">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="699" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816982" />
+    <state width="698" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774115" />
+    <state width="699" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708388" />
+    <state width="754" height="219" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598889644587" />
+    <state width="754" height="219" key="GridCell.Tab.0.center" timestamp="1598889644586">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="699" height="230" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816981" />
+    <state width="698" height="230" key="GridCell.Tab.0.center/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774114" />
+    <state width="699" height="230" key="GridCell.Tab.0.center/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708387" />
+    <state width="754" height="219" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1598889644586" />
+    <state width="754" height="219" key="GridCell.Tab.0.left" timestamp="1598889644585">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="699" height="230" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816981" />
+    <state width="698" height="230" key="GridCell.Tab.0.left/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774114" />
+    <state width="699" height="230" key="GridCell.Tab.0.left/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708387" />
+    <state width="754" height="219" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1598889644585" />
+    <state width="754" height="219" key="GridCell.Tab.0.right" timestamp="1598889644586">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="699" height="230" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816981" />
+    <state width="698" height="230" key="GridCell.Tab.0.right/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774115" />
+    <state width="699" height="230" key="GridCell.Tab.0.right/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708388" />
+    <state width="754" height="219" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1598889644586" />
+    <state width="614" height="137" key="GridCell.Tab.1.bottom" timestamp="1598889644385">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="614" height="137" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598889644385" />
+    <state width="614" height="137" key="GridCell.Tab.1.center" timestamp="1598889644384">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="614" height="137" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1598889644384" />
+    <state width="614" height="137" key="GridCell.Tab.1.left" timestamp="1598889644384">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="614" height="137" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1598889644384" />
+    <state width="614" height="137" key="GridCell.Tab.1.right" timestamp="1598889644384">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="614" height="137" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1598889644384" />
+    <state width="614" height="137" key="GridCell.Tab.2.bottom" timestamp="1598889644385">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="614" height="137" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598889644385" />
+    <state width="614" height="137" key="GridCell.Tab.2.center" timestamp="1598889644385">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="614" height="137" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1598889644385" />
+    <state width="614" height="137" key="GridCell.Tab.2.left" timestamp="1598889644385">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="614" height="137" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1598889644385" />
+    <state width="614" height="137" key="GridCell.Tab.2.right" timestamp="1598889644385">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="614" height="137" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1598889644385" />
+    <state x="308" y="211" key="IDE.errors.dialog" timestamp="1596144958490">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="308" y="211" key="IDE.errors.dialog/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144958490" />
+    <state x="308" y="211" key="IDE.errors.dialog/0.23.1440.877@0.23.1440.877" timestamp="1596101906580" />
+    <state x="57" y="44" width="1249" height="722" key="SettingsEditor" timestamp="1597314953900">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="144" y="97" width="1158" height="722" key="SettingsEditor/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1592670648189" />
+    <state x="57" y="44" width="1249" height="722" key="SettingsEditor/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596145481045" />
+    <state x="57" y="44" width="1218" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1597314953900" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1597315590265">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1597315590265" />
+    <state x="399" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1599754773583">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="399" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596145456171" />
+    <state x="399" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1599754773583" />
+    <state x="385" y="211" key="run.anything.popup" timestamp="1597315571217">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="211" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1597315571217" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/Subsets.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/WordLadder.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
