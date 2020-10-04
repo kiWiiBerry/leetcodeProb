@@ -3,6 +3,30 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/AddStrings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/AddStrings.java" />
+              <option name="questionId" value="415" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/BinaryTreeRightSideView.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/BinaryTreeRightSideView.java" />
+              <option name="questionId" value="199" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/BoundaryOfBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/BoundaryOfBinaryTree.java" />
+              <option name="questionId" value="545" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PalindromePartitioning.java">
           <value>
             <LeetcodeEditor>
@@ -35,6 +59,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/SubarraySumEqualsK.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/SubarraySumEqualsK.java" />
+              <option name="questionId" value="560" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/Subsets.java">
           <value>
             <LeetcodeEditor>
@@ -48,6 +80,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/SubsetsIi.java" />
               <option name="questionId" value="90" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/VerifyingAnAlienDictionary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/VerifyingAnAlienDictionary.java" />
+              <option name="questionId" value="990" />
             </LeetcodeEditor>
           </value>
         </entry>
