@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c4e518-f090-405d-9387-bf2a1e3e0317" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/AddStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/BinaryTreeRightSideView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/BoundaryOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/VerifyingAnAlienDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -152,7 +148,7 @@
       <workItem from="1596145422910" duration="3815000" />
       <workItem from="1596189729534" duration="817000" />
       <workItem from="1596190714645" duration="17255000" />
-      <workItem from="1599754772005" duration="4481000" />
+      <workItem from="1599754772005" duration="5735000" />
     </task>
     <servers />
   </component>
