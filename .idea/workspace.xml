@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c4e518-f090-405d-9387-bf2a1e3e0317" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/AddStrings$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/AddStrings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/BinaryTreeRightSideView$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/BinaryTreeRightSideView$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/BinaryTreeRightSideView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/BoundaryOfBinaryTree$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/BoundaryOfBinaryTree$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/BoundaryOfBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/DecodeWays$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/DecodeWays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/HouseRobber$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/HouseRobber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/PalindromePartitioning$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/PalindromePartitioning.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree$Codec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SubarraySumEqualsK$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SubarraySumEqualsK.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/VerifyingAnAlienDictionary$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/VerifyingAnAlienDictionary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/WordLadderIi$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/WordLadderIi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/DecodeWays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/WordLadder$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/WordLadder$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +161,7 @@
       <workItem from="1596145422910" duration="3815000" />
       <workItem from="1596189729534" duration="817000" />
       <workItem from="1596190714645" duration="17255000" />
-      <workItem from="1599754772005" duration="8530000" />
+      <workItem from="1599754772005" duration="8566000" />
     </task>
     <servers />
   </component>
