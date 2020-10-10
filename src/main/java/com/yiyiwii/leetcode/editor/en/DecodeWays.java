@@ -70,31 +70,79 @@ import java.util.stream.IntStream;
 public class DecodeWays {
     public static void main(String[] args) {
         Solution solution = new DecodeWays().new Solution();
-        System.out.println(solution.LETTERS);
+//        System.out.println(solution.LETTERS);
+        String s = "1234";
+        solution.numDecodings(s);
+//        System.out.println(Arrays.toString(solution.prefs));
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    private final List<String> LETTERS = IntStream.range(1, 27)
-            .mapToObj(Integer::toString).collect(Collectors.toList());
     public int numDecodings(String s) {
         int[] memo = new int[s.length()];
         Arrays.fill(memo, -1);
-        return dfs(0, memo, s);
+        if (s.length() == 0) return 0;
+        return ways(0, s, memo);
     }
-    private int dfs(int i, int[] memo, String s) {
+    public int ways(int i, String s, int[] memo) {
         if (i == s.length()) return 1;
-        if (memo[i] == -1) {
-            int ways = 0;
-            String remaining = s.substring(i);
-            for (String pref : LETTERS) {
-                if (remaining.startsWith(pref)) {
-                    ways += dfs(i + pref.length(), memo, s);
-                }
-            }
-            memo[i] = ways;
+        if (memo[i] != -1) return memo[i];
+
+        if (s.charAt(i) == '0') {
+            memo[i] = 0;
+            return 0;
         }
-        return memo[i];
+        int res = ways(i + 1, s, memo);
+        if (i < s.length() - 1 && (s.charAt(i) == '1' || (s.charAt(i) == '2'
+            && s.charAt(i + 1) < '7'))) {
+            res += ways(i + 2, s, memo);
+        }
+        memo[i] = res;
+        return res;
     }
+
+
+// Method 2
+//    private String[] prefs;
+//    public int numDecodings(String s) {
+//        prefs = new String[26];
+//        Arrays.setAll(prefs, i -> Integer.toString(i + 1));
+//        return dfs(0, s, new int[s.length()]);
+//    }
+//    private int dfs(int i, String s, int[] memo) {
+//        if (i == s.length()) return 1;
+//        if (memo[i] == 0) {
+//            String remaining = s.substring(i);
+//            for (String pref : prefs) {
+//                if (remaining.startsWith(pref)) {
+//                    memo[i] += dfs(i + pref.length(), s, memo);
+//                }
+//            }
+//        }
+//        return memo[i];
+//    }
+
+// Method 1:
+//    private final List<String> LETTERS = IntStream.range(1, 27)
+//            .mapToObj(Integer::toString).collect(Collectors.toList());
+//    public int numDecodings(String s) {
+//        int[] memo = new int[s.length()];
+//        Arrays.fill(memo, -1);
+//        return dfs(0, memo, s);
+//    }
+//    private int dfs(int i, int[] memo, String s) {
+//        if (i == s.length()) return 1;
+//        if (memo[i] == -1) {
+//            int ways = 0;
+//            String remaining = s.substring(i);
+//            for (String pref : LETTERS) {
+//                if (remaining.startsWith(pref)) {
+//                    ways += dfs(i + pref.length(), memo, s);
+//                }
+//            }
+//            memo[i] = ways;
+//        }
+//        return memo[i];
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
