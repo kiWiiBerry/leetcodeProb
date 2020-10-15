@@ -78,28 +78,41 @@ public class DecodeWays {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int numDecodings(String s) {
-        int[] memo = new int[s.length()];
-        Arrays.fill(memo, -1);
-        if (s.length() == 0) return 0;
-        return ways(0, s, memo);
-    }
-    public int ways(int i, String s, int[] memo) {
-        if (i == s.length()) return 1;
-        if (memo[i] != -1) return memo[i];
+        int[] dp = new int[s.length() + 1];
+        dp[0] = 1;
+        dp[1] = s.charAt(0) == '0' ? 0 : 1;
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) != '0') {
 
-        if (s.charAt(i) == '0') {
-            memo[i] = 0;
-            return 0;
+            }
         }
-        int res = ways(i + 1, s, memo);
-        if (i < s.length() - 1 && (s.charAt(i) == '1' || (s.charAt(i) == '2'
-            && s.charAt(i + 1) < '7'))) {
-            res += ways(i + 2, s, memo);
-        }
-        memo[i] = res;
-        return res;
+        return dp[s.length()];
     }
-
+//    Method 3
+//    public int numDecodings(String s) {
+//        int[] memo = new int[s.length()];
+//        Arrays.fill(memo, -1);
+//        if (s.length() == 0) return 0;
+//        return ways(0, s, memo);
+//    }
+//    public int ways(int i, String s, int[] memo) {
+//        if (i == s.length()) return 1;
+//        if (memo[i] != -1) return memo[i];
+//
+//        if (s.charAt(i) == '0') {
+//            memo[i] = 0;
+//            return 0;
+//        }
+//        int res = ways(i + 1, s, memo);
+//        if (i < s.length() - 1) {
+//            int prefix = (s.charAt(i) - '0') * 10 + s.charAt(i + 1) - '0';
+//            if (prefix <= 26) {
+//                res += ways(i + 2, s, memo);
+//            }
+//        }
+//        memo[i] = res;
+//        return res;
+//    }
 
 // Method 2
 //    private String[] prefs;
