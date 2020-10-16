@@ -8,30 +8,50 @@
 //just need to ensure that a binary tree can be serialized to a string and this st
 //ring can be deserialized to the original tree structure. 
 //
-// Example: 
+// Clarification: The input/output format is the same as how LeetCode serializes
+// a binary tree. You do not necessarily need to follow this format, so please be 
+//creative and come up with different approaches yourself. 
 //
 // 
-//You may serialize the following tree:
+// Example 1: 
 //
-//    1
-//   / \
-//  2   3
-//     / \
-//    4   5
-//
-//as "[1,2,3,null,null,4,5]"
+// 
+//Input: root = [1,2,3,null,null,4,5]
+//Output: [1,2,3,null,null,4,5]
 // 
 //
-// Clarification: The above format is the same as how LeetCode serializes a bina
-//ry tree. You do not necessarily need to follow this format, so please be creativ
-//e and come up with different approaches yourself. 
+// Example 2: 
 //
-// Note: Do not use class member/global/static variables to store states. Your s
-//erialize and deserialize algorithms should be stateless. 
+// 
+//Input: root = []
+//Output: []
+// 
+//
+// Example 3: 
+//
+// 
+//Input: root = [1]
+//Output: [1]
+// 
+//
+// Example 4: 
+//
+// 
+//Input: root = [1,2]
+//Output: [1,2]
+// 
+//
+// 
+// Constraints: 
+//
+// 
+// The number of nodes in the tree is in the range [0, 104]. 
+// -1000 <= Node.val <= 1000 
+// 
 // Related Topics Tree Design 
-// 👍 3169 👎 153
+// 👍 3502 👎 169
 
-  
+
 package com.yiyiwii.leetcode.editor.en;
 
 import java.util.Arrays;
@@ -40,27 +60,19 @@ import java.util.Queue;
 
 public class SerializeAndDeserializeBinaryTree {
     public static void main(String[] args) {
-//        Solution solution = new SerializeAndDeserializeBinaryTree().new Solution();
+        Codec solution = new SerializeAndDeserializeBinaryTree().new Codec();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
-
-public class Codec {
-
+ * */
+ public class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode(int x) { val = x; }
+ }
+ class Codec {
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         StringBuilder sb = new StringBuilder();
@@ -70,7 +82,7 @@ public class Codec {
 
     public void serializeHelper(TreeNode root, StringBuilder sb) {
         if (root == null) {
-            sb.append("null").append(",");
+            sb.append("NULL").append(",");
         } else {
             sb.append(root.val).append(",");
             serializeHelper(root.left, sb);
@@ -87,20 +99,20 @@ public class Codec {
     }
     public TreeNode deserializeHelper(Queue<String> nodes) {
         String val = nodes.remove();
-        if (val.equals("null")) {
+        if (val.equals("NULL")) {
             return null;
-        } else {
-            TreeNode node = new TreeNode(Integer.valueOf(val));
-            node.left = deserializeHelper(nodes);
-            node.right = deserializeHelper(nodes);
-            return node;
         }
+        TreeNode node = new TreeNode(Integer.parseInt(val));
+        node.left = deserializeHelper(nodes);
+        node.right = deserializeHelper(nodes);
+        return node;
     }
 }
 
 // Your Codec object will be instantiated and called as such:
-// Codec codec = new Codec();
-// codec.deserialize(codec.serialize(root));
+// Codec ser = new Codec();
+// Codec deser = new Codec();
+// TreeNode ans = deser.deserialize(ser.serialize(root));
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

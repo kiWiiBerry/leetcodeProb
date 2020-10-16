@@ -27,6 +27,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/ConstructStringFromBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/ConstructStringFromBinaryTree.java" />
+              <option name="questionId" value="606" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/CountGoodNodesInBinaryTree.java">
           <value>
             <LeetcodeEditor>
@@ -112,6 +120,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/SubsetsIi.java" />
               <option name="questionId" value="90" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/ValidateBinarySearchTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/ValidateBinarySearchTree.java" />
+              <option name="questionId" value="98" />
             </LeetcodeEditor>
           </value>
         </entry>

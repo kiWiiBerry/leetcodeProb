@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c4e518-f090-405d-9387-bf2a1e3e0317" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/ConstructBinaryTreeFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/DecodeWays$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/DecodeWays$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/DecodeWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/DecodeWays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree$Codec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree$Codec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeProb/com/yiyiwii/leetcode/editor/en/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/all.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +72,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
-  <component name="RunManager" selected="Application.DecodeWays">
-    <configuration name="ConvertSortedArrayToBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yiyiwii.leetcode.editor.en.ConvertSortedArrayToBinarySearchTree" />
+  <component name="RunManager" selected="Application.ConstructStringFromBinaryTree">
+    <configuration name="ConstructStringFromBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiyiwii.leetcode.editor.en.ConstructStringFromBinaryTree" />
       <module name="LeetcodeProb" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructStringFromBinaryTree" />
         <item itemvalue="Application.DecodeWays" />
         <item itemvalue="Application.WordLadder" />
         <item itemvalue="Application.PermutationsIi" />
         <item itemvalue="Application.Subsets" />
-        <item itemvalue="Application.ConvertSortedArrayToBinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +192,7 @@
       <workItem from="1596145422910" duration="3815000" />
       <workItem from="1596189729534" duration="817000" />
       <workItem from="1596190714645" duration="17255000" />
-      <workItem from="1599754772005" duration="18291000" />
+      <workItem from="1599754772005" duration="24013000" />
     </task>
     <servers />
   </component>
@@ -194,34 +204,34 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="409" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1596192503879" />
-    <state width="535" height="219" key="GridCell.Tab.0.bottom" timestamp="1602333937019">
+    <state width="751" height="219" key="GridCell.Tab.0.bottom" timestamp="1602865781858">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="699" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816982" />
     <state width="698" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774115" />
     <state width="699" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708388" />
-    <state width="535" height="219" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602333937019" />
-    <state width="535" height="219" key="GridCell.Tab.0.center" timestamp="1602333937018">
+    <state width="751" height="219" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602865781858" />
+    <state width="751" height="219" key="GridCell.Tab.0.center" timestamp="1602865781857">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="699" height="230" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816981" />
     <state width="698" height="230" key="GridCell.Tab.0.center/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774114" />
     <state width="699" height="230" key="GridCell.Tab.0.center/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708387" />
-    <state width="535" height="219" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602333937018" />
-    <state width="535" height="219" key="GridCell.Tab.0.left" timestamp="1602333937018">
+    <state width="751" height="219" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602865781857" />
+    <state width="751" height="219" key="GridCell.Tab.0.left" timestamp="1602865781857">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="699" height="230" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816981" />
     <state width="698" height="230" key="GridCell.Tab.0.left/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774114" />
     <state width="699" height="230" key="GridCell.Tab.0.left/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708387" />
-    <state width="535" height="219" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602333937018" />
-    <state width="535" height="219" key="GridCell.Tab.0.right" timestamp="1602333937019">
+    <state width="751" height="219" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602865781857" />
+    <state width="751" height="219" key="GridCell.Tab.0.right" timestamp="1602865781858">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="699" height="230" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816981" />
     <state width="698" height="230" key="GridCell.Tab.0.right/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774115" />
     <state width="699" height="230" key="GridCell.Tab.0.right/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708388" />
-    <state width="535" height="219" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602333937019" />
+    <state width="751" height="219" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602865781858" />
     <state width="614" height="137" key="GridCell.Tab.1.bottom" timestamp="1598889644385">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
