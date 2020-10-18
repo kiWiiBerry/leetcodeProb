@@ -11,7 +11,7 @@
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SerializeAndDeserializeBinaryTree.java)|Hard|10-16-2020|
 |606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ConstructStringFromBinaryTree.java)|Easy|10-16-2020|
 |536|[$ Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/) [(Lintcode 880)](https://www.lintcode.com/problem/construct-binary-tree-from-string/description) | [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ConstructBinaryTreeFromString.java)|Medium|10-17-2020|
-|652|TODO: [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ConstructBinaryTreeFromString.java) | Medium | 10-16-2020|
+|652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/FindDuplicateSubtrees.java) | Medium | 10-18-2020|
 
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
