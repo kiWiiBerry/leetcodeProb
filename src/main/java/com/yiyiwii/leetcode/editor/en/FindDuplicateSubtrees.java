@@ -84,31 +84,56 @@ public class FindDuplicateSubtrees {
 }
 
 class Solution {
-    public List<TreeNode> res = new ArrayList<>();
-    HashMap<String, Integer> cnt = new HashMap<>();
+     public List<TreeNode> res = new ArrayList<>();
+     public HashMap<Integer, Integer> cnt = new HashMap<>();
+     public HashMap<String, Integer> idMap = new HashMap<>();
+     public int globalID = 1;
 
-    public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
-        helper(root);
-        return res;
-    }
-    public String helper(TreeNode node) {
-        String str = "";
-        if (node == null) {
-            str = "NULL" + ",";
-        } else {
-            str = node.val + ",";
-            str += helper(node.left);
-            str += helper(node.right);
-            cnt.put(str, cnt.getOrDefault(str, 0) + 1);
-            System.out.println(str.toString());
-            System.out.println(cnt.get(str));
-            if (cnt.get(str) == 2) {
-                res.add(node);
-                System.out.println(node.toString());
-            }
-        }
-        return str;
-    }
+     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
+         helper(root);
+         return res;
+     }
+     public String helper(TreeNode node) {
+         String str = "";
+         if (node == null) {
+             str = "NULL" + ",";
+         } else {
+             str = node + ",";
+             str += helper(node.left);
+             str += helper(node.right);
+             int id = idMap.computeIfAbsent(str, x -> globalID++);
+             cnt.put(id, cnt.getOrDefault(id, 0) + 1);
+             if (cnt.get(id) == 2) {
+                 res.add(node);
+             }
+         }
+         return str;
+     }
+// Method 1
+//    public List<TreeNode> res = new ArrayList<>();
+//    HashMap<String, Integer> cnt = new HashMap<>();
+//
+//    public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
+//        helper(root);
+//        return res;
+//    }
+//    public String helper(TreeNode node) {
+//        String str = "";
+//        if (node == null) {
+//            str = "NULL" + ",";
+//        } else {
+//            str = node.val + ",";
+//            str += helper(node.left);
+//            str += helper(node.right);
+//            cnt.put(str, cnt.getOrDefault(str, 0) + 1);
+//            System.out.println(str.toString());
+//            System.out.println(cnt.get(str));
+//            if (cnt.get(str) == 2) {
+//                res.add(node);
+//            }
+//        }
+//        return str;
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
