@@ -20,6 +20,23 @@
 
 | Title | Solution | Date |
 | ------| -------- | ---- |
-| [Count Visible Nodes in Binary Tree](https://leetcode.com/discuss/interview-question/546703/) |[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/VisibleBinaryNode.java) |10-15-2020|
-| [String without Three Identical Consecutive Letters](https://leetcode.com/discuss/interview-question/398039/) | [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/StringWithoutThreeIdenticalConsecutiveLetters.java)|10-19-2020|
-|
+| [Count Visible Nodes in Binary Tree][ms-number-visible-nodes-bitree]|[Java][ms-sol-java-number-visible-nodes-bitree] |10-15-2020|
+| [String without Three Identical Consecutive Letters][ms-str-wo-3-identical-consecutive-letters] | [Java][ms-sol-java-str-wo-3-identical-consecutive-letters]|10-19-2020|
+
+[ms-number-visible-nodes-bitree]: https://leetcode.com/discuss/interview-question/546703/
+[ms-sol-java-number-visible-nodes-bitree]: https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/VisibleBinaryNode.java
+[ms-str-wo-3-identical-consecutive-letters]: https://leetcode.com/discuss/interview-question/398039/
+[ms-sol-java-str-wo-3-identical-consecutive-letters]: https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/StringWithoutThreeIdenticalConsecutiveLetters.java
+
+### Amazon Online Assessment Questions ([Link1][amz-link1], [Link2][amz-link2])
+
+| Title | Solution | Date |
+| ----- | -------- | ---- |
+| [Distance between Binary Search Tree][amz-dist-bitree] | [Java][amz-sol-dist-bitree] | 10-21-2020|
+
+
+
+[amz-link1]: https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions
+[amz-link2]: https://algo.monster/problems/amazon_online_assessment_questions
+[amz-dist-bitree]: https://leetcode.com/discuss/interview-question/376375/
+[amz-sol-dist-bitree]: https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/AmzDistanceBinaryTree.java
