@@ -75,6 +75,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/IslandPerimeter.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/IslandPerimeter.java" />
+              <option name="questionId" value="463" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/LowestCommonAncestorOfABinarySearchTree.java">
           <value>
             <LeetcodeEditor>
@@ -120,6 +128,22 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PermutationsIi.java" />
               <option name="questionId" value="47" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PopulatingNextRightPointersInEachNode.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PopulatingNextRightPointersInEachNode.java" />
+              <option name="questionId" value="116" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PopulatingNextRightPointersInEachNodeIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PopulatingNextRightPointersInEachNodeIi.java" />
+              <option name="questionId" value="117" />
             </LeetcodeEditor>
           </value>
         </entry>
