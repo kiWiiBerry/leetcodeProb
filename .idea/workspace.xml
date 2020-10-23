@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c4e518-f090-405d-9387-bf2a1e3e0317" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/AmzDistanceBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/LowestCommonAncestorOfABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/LowestCommonAncestorOfABinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/AmzDistanceBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/AmzDistanceBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -62,7 +67,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RunManager" selected="Application.AmzDistanceBinaryTree">
     <configuration name="AmzDistanceBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -184,7 +189,7 @@
       <workItem from="1596145422910" duration="3815000" />
       <workItem from="1596189729534" duration="817000" />
       <workItem from="1596190714645" duration="17255000" />
-      <workItem from="1599754772005" duration="40412000" />
+      <workItem from="1599754772005" duration="41581000" />
     </task>
     <servers />
   </component>
@@ -200,34 +205,34 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="409" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1596192503879" />
-    <state width="912" height="219" key="GridCell.Tab.0.bottom" timestamp="1603280871525">
+    <state width="912" height="219" key="GridCell.Tab.0.bottom" timestamp="1603281485833">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="699" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816982" />
     <state width="698" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774115" />
     <state width="699" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708388" />
-    <state width="912" height="219" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1603280871525" />
-    <state width="912" height="219" key="GridCell.Tab.0.center" timestamp="1603280871524">
+    <state width="912" height="219" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1603281485833" />
+    <state width="912" height="219" key="GridCell.Tab.0.center" timestamp="1603281485832">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="699" height="230" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816981" />
     <state width="698" height="230" key="GridCell.Tab.0.center/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774114" />
     <state width="699" height="230" key="GridCell.Tab.0.center/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708387" />
-    <state width="912" height="219" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1603280871524" />
-    <state width="912" height="219" key="GridCell.Tab.0.left" timestamp="1603280871524">
+    <state width="912" height="219" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1603281485832" />
+    <state width="912" height="219" key="GridCell.Tab.0.left" timestamp="1603281485831">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="699" height="230" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816981" />
     <state width="698" height="230" key="GridCell.Tab.0.left/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774114" />
     <state width="699" height="230" key="GridCell.Tab.0.left/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708387" />
-    <state width="912" height="219" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1603280871524" />
-    <state width="912" height="219" key="GridCell.Tab.0.right" timestamp="1603280871524">
+    <state width="912" height="219" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1603281485831" />
+    <state width="912" height="219" key="GridCell.Tab.0.right" timestamp="1603281485833">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="699" height="230" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1596058816981" />
     <state width="698" height="230" key="GridCell.Tab.0.right/0.23.1440.877/-268.-1057.1920.1057@0.23.1440.877" timestamp="1596150774115" />
     <state width="699" height="230" key="GridCell.Tab.0.right/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144708388" />
-    <state width="912" height="219" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1603280871524" />
+    <state width="912" height="219" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1603281485833" />
     <state width="614" height="137" key="GridCell.Tab.1.bottom" timestamp="1598889644385">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -265,12 +270,12 @@
     </state>
     <state x="308" y="211" key="IDE.errors.dialog/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596144958490" />
     <state x="308" y="211" key="IDE.errors.dialog/0.23.1440.877@0.23.1440.877" timestamp="1596101906580" />
-    <state x="57" y="44" width="1249" height="722" key="SettingsEditor" timestamp="1602158358946">
+    <state x="57" y="44" width="1249" height="722" key="SettingsEditor" timestamp="1603281589930">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="144" y="97" width="1158" height="722" key="SettingsEditor/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1592670648189" />
     <state x="57" y="44" width="1249" height="722" key="SettingsEditor/0.23.1440.877/1440.76.1920.1057@0.23.1440.877" timestamp="1596145481045" />
-    <state x="57" y="44" width="1218" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1602158358946" />
+    <state x="57" y="44" width="1218" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603281589930" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1603277970391">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

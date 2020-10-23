@@ -35,7 +35,6 @@
 | [Distance between Binary Search Tree][amz-dist-bitree] | [Java][amz-sol-dist-bitree] | 10-21-2020|
 
 
-
 [amz-link1]: https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions
 [amz-link2]: https://algo.monster/problems/amazon_online_assessment_questions
 [amz-dist-bitree]: https://leetcode.com/discuss/interview-question/376375/
