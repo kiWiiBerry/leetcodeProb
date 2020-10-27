@@ -16,6 +16,14 @@
 |235|[Lowest Common Ancestor in Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LowestCommonAncestorOfABinarySearchTree.java)|Easy|10-20-2020|
 |236|[Lowest Common Ancestor in Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LowestCommonAncestorOfABinaryTree.java)|Medium|10-20-2020|
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/) |[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/IslandPerimeter.java)|Medium |10-22-2020|   
+|456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/One32Pattern.java)|Medium|10-25-2020|
+|15|[3 Sum](https://leetcode.com/problems/3sum/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ThreeSum.java)|TBD|
+|16|[3 Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ThreeSumClosest.java)|TBD|
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BinaryTreePaths.java)|10-27-2020|
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PathSumIi.java)|10-27-2020|
+|112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PathSum.java)|10-27-2020|
+|560|[Subarray Sum Equals to K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SubarraySumEqualsK.java)|10-27-2020|
+
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 
@@ -23,7 +31,7 @@
 | ------| -------- | ---- |
 | [Count Visible Nodes in Binary Tree][ms-number-visible-nodes-bitree]|[Java][ms-sol-java-number-visible-nodes-bitree] |10-15-2020|
 | [String without Three Identical Consecutive Letters][ms-str-wo-3-identical-consecutive-letters] | [Java][ms-sol-java-str-wo-3-identical-consecutive-letters]|10-19-2020|
-
+| [Missing Dice Rolls]()|
 [ms-number-visible-nodes-bitree]: https://leetcode.com/discuss/interview-question/546703/
 [ms-sol-java-number-visible-nodes-bitree]: https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/VisibleBinaryNode.java
 [ms-str-wo-3-identical-consecutive-letters]: https://leetcode.com/discuss/interview-question/398039/

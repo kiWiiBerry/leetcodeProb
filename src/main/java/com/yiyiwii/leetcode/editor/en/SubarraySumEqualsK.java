@@ -21,26 +21,42 @@
 
   
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.HashMap;
+
 public class SubarraySumEqualsK {
     public static void main(String[] args) {
         Solution solution = new SubarraySumEqualsK().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    // Method 2, O(n)
     public int subarraySum(int[] nums, int k) {
-        int cnt = 0;
-        int[] sum = new int[nums.length + 1];
-        for (int i = 1; i < sum.length; i++) {
-            sum[i] = sum[i - 1] + nums[i - 1];
+        int sum = 0, res = 0;
+        HashMap<Integer, Integer> preSum = new HashMap<>();
+        preSum.put(0, 1);
+        for (int num: nums) {
+            sum += num;
+            res += preSum.getOrDefault(sum - k, 0);
+            preSum.put(sum, preSum.getOrDefault(sum, 0) + 1);
         }
-        for (int start = 0; start < nums.length; start++) {
-            for (int end = start + 1; end <= nums.length; end++) {
-                if (sum[end] - sum[start] == k)
-                    cnt++;
-            }
-        }
-        return cnt;
+        return res;
     }
+//    // Method 1, O(n^2)
+//    public int subarraySum(int[] nums, int k) {
+//        int cnt = 0;
+//        int[] sum = new int[nums.length + 1];
+//        for (int i = 1; i < sum.length; i++) {
+//            sum[i] = sum[i - 1] + nums[i - 1];
+//        }
+//        for (int start = 0; start < nums.length; start++) {
+//            for (int end = start + 1; end <= nums.length; end++) {
+//                if (sum[end] - sum[start] == k)
+//                    cnt++;
+//            }
+//        }
+//        return cnt;
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 

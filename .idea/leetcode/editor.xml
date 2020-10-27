@@ -11,6 +11,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/BinaryTreePaths.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/BinaryTreePaths.java" />
+              <option name="questionId" value="257" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/BinaryTreeRightSideView.java">
           <value>
             <LeetcodeEditor>
@@ -123,6 +131,30 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PathSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PathSum.java" />
+              <option name="questionId" value="112" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PathSumIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PathSumIi.java" />
+              <option name="questionId" value="113" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PathSumIii.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/PathSumIii.java" />
+              <option name="questionId" value="437" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/Permutations.java">
           <value>
             <LeetcodeEditor>
@@ -184,6 +216,22 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/SubsetsIi.java" />
               <option name="questionId" value="90" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/ThreeSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/ThreeSum.java" />
+              <option name="questionId" value="15" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/ThreeSumClosest.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/yiyiwii/leetcode/editor/en/ThreeSumClosest.java" />
+              <option name="questionId" value="16" />
             </LeetcodeEditor>
           </value>
         </entry>
