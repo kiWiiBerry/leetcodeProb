@@ -24,31 +24,24 @@
 |19|112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PathSum.java)|Easy|10-27-2020|
 |20|560|[Subarray Sum Equals to K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SubarraySumEqualsK.java)|Medium|10-27-2020|
 |21|988|[Smallest String Starting from Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Java]()|Medium|10-27-2020|
-|22|687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java]()|Medium|10-27-2020|
+|22|687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestUnivaluePath.java)|Medium|10-27-2020|
 |23|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Java]()|Hard|TBD|
 |24|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java]()|Medium|TBD|
+|25|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DiameterOfBinaryTree.java)|Easy|10-28-2020|
+|26|404|[Sum of Left Leaves](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SumOfLeftLeaves.java)|Easy|10-27-2020|
 
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 
 | Title | Solution | Date |
 | ------| -------- | ---- |
-| [Count Visible Nodes in Binary Tree][ms-number-visible-nodes-bitree]|[Java][ms-sol-java-number-visible-nodes-bitree] |10-15-2020|
-| [String without Three Identical Consecutive Letters][ms-str-wo-3-identical-consecutive-letters] | [Java][ms-sol-java-str-wo-3-identical-consecutive-letters]|10-19-2020|
+| [Count Visible Nodes in Binary Tree](https://leetcode.com/discuss/interview-question/546703/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/VisibleBinaryNode.java) |10-15-2020|
+| [String without Three Identical Consecutive Letters](https://leetcode.com/discuss/interview-question/398039/)| [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/StringWithoutThreeIdenticalConsecutiveLetters.java)|10-19-2020|
 | [Missing Dice Rolls]()|
-[ms-number-visible-nodes-bitree]: https://leetcode.com/discuss/interview-question/546703/
-[ms-sol-java-number-visible-nodes-bitree]: https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/VisibleBinaryNode.java
-[ms-str-wo-3-identical-consecutive-letters]: https://leetcode.com/discuss/interview-question/398039/
-[ms-sol-java-str-wo-3-identical-consecutive-letters]: https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/StringWithoutThreeIdenticalConsecutiveLetters.java
 
-### Amazon Online Assessment Questions ([Link1][amz-link1], [Link2][amz-link2])
+
+### Amazon Online Assessment Questions ([Link1](https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions), [Link2](https://algo.monster/problems/amazon_online_assessment_questions))
 
 | Title | Solution | Date |
 | ----- | -------- | ---- |
-| [Distance between Binary Search Tree][amz-dist-bitree] | [Java][amz-sol-dist-bitree] | 10-21-2020|
-
-
-[amz-link1]: https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions
-[amz-link2]: https://algo.monster/problems/amazon_online_assessment_questions
-[amz-dist-bitree]: https://leetcode.com/discuss/interview-question/376375/
-[amz-sol-dist-bitree]: https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/AmzDistanceBinaryTree.java
+| [Distance between Binary Search Tree](https://leetcode.com/discuss/interview-question/376375/) | [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/AmzDistanceBinaryTree.java) | 10-21-2020|

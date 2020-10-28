@@ -55,9 +55,35 @@ public class LongestUnivaluePath {
  }
 
 class Solution {
-    public int longestUnivaluePath(TreeNode root) {
-        return 0;
-    }
+     int res;
+     public int longestUnivaluePath(TreeNode root) {
+         if (root == null) return 0;
+         res = 0;
+         helper(root, root.val);
+         return res;
+     }
+     public int helper(TreeNode node, int val) {
+         if (node == null) return 0;
+         int l = helper(node.left, node.val);
+         int r = helper(node.right, node.val);
+         res = Math.max(l + r, res);
+         if (node.val == val) {
+             return Math.max(l, r) + 1;
+         }
+         return 0;
+     }
+
+
+//    // Method 1
+//    public int longestUnivaluePath(TreeNode root) {
+//        if (root == null) return 0;
+//        int sub = Math.max(longestUnivaluePath(root.left), longestUnivaluePath(root.right));
+//        return Math.max(sub, helper(root.left, root.val) + helper(root.right, root.val));
+//    }
+//    public int helper(TreeNode root, int val) {
+//        if (root == null || root.val != val) return 0;
+//        return 1 + Math.max(helper(root.left, val), helper(root.right, val));
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
