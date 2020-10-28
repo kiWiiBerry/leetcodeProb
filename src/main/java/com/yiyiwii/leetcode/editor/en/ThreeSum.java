@@ -27,6 +27,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.List;
+
 public class ThreeSum {
     public static void main(String[] args) {
         Solution solution = new ThreeSum().new Solution();
@@ -34,7 +37,7 @@ public class ThreeSum {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

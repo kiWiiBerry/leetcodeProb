@@ -52,6 +52,7 @@
 package com.yiyiwii.leetcode.editor.en;
 
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class PopulatingNextRightPointersInEachNodeIi {
     public static void main(String[] args) {
@@ -60,6 +61,8 @@ public class PopulatingNextRightPointersInEachNodeIi {
     //leetcode submit region begin(Prohibit modification and deletion)
 /*
 // Definition for a Node.
+ */
+
 class Node {
     public int val;
     public Node left;
@@ -79,7 +82,7 @@ class Node {
         next = _next;
     }
 };
-*/
+
 
 class Solution {
     public Node connect(Node root) {
