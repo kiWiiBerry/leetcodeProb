@@ -36,7 +36,8 @@
 | Title | Solution | Date |
 | ------| -------- | ---- |
 | [Count Visible Nodes in Binary Tree](https://leetcode.com/discuss/interview-question/546703/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/VisibleBinaryNode.java) |10-15-2020|
-| [String without Three Identical Consecutive Letters](https://leetcode.com/discuss/interview-question/398039/)| [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/StringWithoutThreeIdenticalConsecutiveLetters.java)|10-19-2020|
+| [String without Three Identical Consecutive Letters](https://leetcode.com/discuss/interview-question/398039/)| [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/StringWithoutThreeIdenticalConsecutiveLetters.java)|TBD|
+| [Day of Week That is K Days later](https://leetcode.com/discuss/interview-question/703151/) | [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DayOfWeekKDaysLater.java) | 10-29-2020|
 | [Missing Dice Rolls]()|
 
 

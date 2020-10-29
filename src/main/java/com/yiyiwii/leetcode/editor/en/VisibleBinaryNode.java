@@ -1,6 +1,5 @@
 package com.yiyiwii.leetcode.editor.en;
 
-
 import java.util.ArrayList;
 
 public class VisibleBinaryNode {
