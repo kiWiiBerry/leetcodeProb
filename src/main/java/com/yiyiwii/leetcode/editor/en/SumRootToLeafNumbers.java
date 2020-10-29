@@ -63,9 +63,21 @@ public class SumRootToLeafNumbers {
  }
 
 class Solution {
+    int total = 0;
     public int sumNumbers(TreeNode root) {
-        return 0;
+        helper(root, 0);
+        return total;
     }
+    public void helper(TreeNode node, int sum) {
+        if (node == null) return;
+        sum = sum * 10 + node.val;
+        if (node.left == null && node.right == null) {
+            total += sum;
+            return;
+        }
+        helper(node.left, sum);
+        helper(node.right, sum);
+     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 

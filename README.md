@@ -26,7 +26,7 @@
 |21|988|[Smallest String Starting from Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Java]()|Medium|10-27-2020|
 |22|687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestUnivaluePath.java)|Medium|10-27-2020|
 |23|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Java]()|Hard|TBD|
-|24|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java]()|Medium|TBD|
+|24|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java]()|Medium|10-28-2020|
 |25|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DiameterOfBinaryTree.java)|Easy|10-28-2020|
 |26|404|[Sum of Left Leaves](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SumOfLeftLeaves.java)|Easy|10-27-2020|
 
