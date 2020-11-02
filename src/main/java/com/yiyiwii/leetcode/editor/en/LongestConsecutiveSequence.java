@@ -32,6 +32,12 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
+
 public class LongestConsecutiveSequence {
     public static void main(String[] args) {
         Solution solution = new LongestConsecutiveSequence().new Solution();
@@ -39,8 +45,20 @@ public class LongestConsecutiveSequence {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestConsecutive(int[] nums) {
-
-        return 0;
+        int max = 0;
+        Set<Integer> set = Arrays.stream(nums).boxed().collect(Collectors.toSet());
+        for (int num : nums) {
+            if (!set.contains(num - 1)) {
+                int cnt = 1;
+                int currNum = num;
+                while (set.contains(currNum + 1)) {
+                    cnt++;
+                    currNum++;
+                }
+                max = Math.max(cnt, max);
+            }
+        }
+        return max;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
