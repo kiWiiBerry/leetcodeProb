@@ -39,6 +39,7 @@ public class LongestConsecutiveSequence {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestConsecutive(int[] nums) {
+
         return 0;
     }
 }

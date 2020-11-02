@@ -29,6 +29,7 @@
 |24|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java]()|Medium|10-28-2020|
 |25|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DiameterOfBinaryTree.java)|Easy|10-28-2020|
 |26|404|[Sum of Left Leaves](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SumOfLeftLeaves.java)|Easy|10-27-2020|
+|27|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestConsecutiveSequence.java)|Hard|10-31-2020|
 
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
@@ -39,6 +40,7 @@
 | [String without Three Identical Consecutive Letters](https://leetcode.com/discuss/interview-question/398039/)| [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/StringWithoutThreeIdenticalConsecutiveLetters.java)|TBD|
 | [Day of Week That is K Days later](https://leetcode.com/discuss/interview-question/703151/) | [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DayOfWeekKDaysLater.java) | 10-29-2020|
 | [Missing Dice Rolls]()|
+| [Longest Consecutive Sequence(LC128)](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestConsecutiveSequence.java)|
 
 
 ### Amazon Online Assessment Questions ([Link1](https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions), [Link2](https://algo.monster/problems/amazon_online_assessment_questions))
