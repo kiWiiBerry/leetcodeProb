@@ -35,7 +35,7 @@
 |30|669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TrimABinarySearchTree.java)|Easy|11-02-2020|
 |31|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TrimABinarySearchTree.java)|Medium|11-02-2020|
 |32|1325|[Delete Leaves with a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DeleteLeavesWithAGivenValue.java) |Medium|11-02-2020|
-
+|33|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BalancedBinaryTree.java)|Easy|11-04-2020|
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 
