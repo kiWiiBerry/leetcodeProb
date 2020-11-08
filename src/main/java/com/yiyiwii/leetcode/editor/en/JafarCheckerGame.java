@@ -35,12 +35,10 @@ import java.util.Stack;
 
 public class JafarCheckerGame {
     // Similar as Max Depth of Binary Tree
-    // Iterative method
+
+    // Recusive method
     public int solution(String[] B) {
         char jafar = 'O';
-        char aladdin = 'X';
-        int max = 0;
-        int colN = B[0].length();
         int jafarPosCol = 0, jafarPosRow = 0;
         for(int i = 0; i < B.length; i++) {
             String value = B[i];
@@ -49,38 +47,75 @@ public class JafarCheckerGame {
                 jafarPosRow = i;
             }
         }
-
-        Stack<int[]> stack = new Stack<>();
-        Stack<Integer> cnt = new Stack<>();
-        stack.push(new int[]{jafarPosRow, jafarPosCol});
-        cnt.push(0);
-
-        while (!stack.isEmpty()) {
-            int[] currNode = stack.pop();
-            int temp = cnt.pop();
-            max = Math.max(temp, max);
-            if (currNode[0] < 2) {
-                continue;
-            } else {
-                int jafarPos = currNode[1];
-                String alaFirstR = B[currNode[0] - 1];
-                String alaSecondR = B[currNode[0] - 2];
-
-                if (jafarPos >= 2 && alaFirstR.charAt(jafarPos - 1) == aladdin
-                        && alaSecondR.charAt(jafarPos - 2) == '.') {
-                    stack.push(new int[]{currNode[0] - 2, jafarPos - 2});
-                    cnt.push(temp + 1);
-                }
-                if (jafarPos < colN - 2 && alaFirstR.charAt(jafarPos + 1) == aladdin
-                        && alaSecondR.charAt(jafarPos + 2) == '.') {
-                    stack.push(new int[]{currNode[0] - 2, jafarPos + 2});
-                    cnt.push(temp + 1);
-                }
-            }
-        }
-
-        return max;
+        return helper(B, jafarPosRow, jafarPosCol);
     }
+
+    public int helper(String[] B, int row, int col) {
+        char aladdin = 'X', dot = '.';
+        int colN = B[0].length();
+
+        if (row < 2 ) return 0;
+        String alaFirstR = B[row - 1];
+        String alaSecondR = B[row - 2];
+
+        int left = 0;     // Left path
+        if (col >= 2 && alaFirstR.charAt(col - 1) == aladdin
+                && alaSecondR.charAt(col - 2) == dot) {
+            left = helper(B, row - 2, col - 2);
+        }
+        int right = 0;    // Right path
+        if (col < colN - 2 && alaFirstR.charAt(col + 1) == aladdin
+                && alaSecondR.charAt(col + 2) == dot) {
+            right = helper(B, row - 2, col + 2);
+        }
+        return 1 + Math.max(left, right);
+    }
+
+//    // Iterative method
+//    public int solution(String[] B) {
+//        char jafar = 'O', aladdin = 'X', dot = '.';
+//        int max = 0;
+//        int colN = B[0].length();
+//        int jafarPosCol = 0, jafarPosRow = 0;
+//        for(int i = 0; i < B.length; i++) {
+//            String value = B[i];
+//            if (value.indexOf(jafar) > 0) {
+//                jafarPosCol = value.indexOf(jafar);
+//                jafarPosRow = i;
+//            }
+//        }
+//
+//        Stack<int[]> stack = new Stack<>();
+//        Stack<Integer> cnt = new Stack<>();
+//        stack.push(new int[]{jafarPosRow, jafarPosCol});
+//        cnt.push(0);
+//
+//        while (!stack.isEmpty()) {
+//            int[] currNode = stack.pop();
+//            int temp = cnt.pop();
+//            max = Math.max(temp, max);
+//            if (currNode[0] < 2) {
+//                continue;
+//            } else {
+//                int jafarPos = currNode[1];
+//                String alaFirstR = B[currNode[0] - 1];
+//                String alaSecondR = B[currNode[0] - 2];
+//
+//                if (jafarPos >= 2 && alaFirstR.charAt(jafarPos - 1) == aladdin
+//                        && alaSecondR.charAt(jafarPos - 2) == dot) {
+//                    stack.push(new int[]{currNode[0] - 2, jafarPos - 2});
+//                    cnt.push(temp + 1);
+//                }
+//                if (jafarPos < colN - 2 && alaFirstR.charAt(jafarPos + 1) == aladdin
+//                        && alaSecondR.charAt(jafarPos + 2) == dot) {
+//                    stack.push(new int[]{currNode[0] - 2, jafarPos + 2});
+//                    cnt.push(temp + 1);
+//                }
+//            }
+//        }
+//
+//        return max;
+//    }
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -88,9 +123,9 @@ public class JafarCheckerGame {
                 "..X...",
                 "......",
                 "....X.",
-                ".X.O..",
+                ".X....",
                 "..X.X.",
-                "......"
+                "...O.."
         };
         String input2[]= {
                 "X....",
