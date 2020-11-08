@@ -55,7 +55,19 @@ public class PathSumIii {
 
 class Solution {
     public int pathSum(TreeNode root, int sum) {
-        return 0;
+        if (root == null)
+            return 0;
+
+        return pathSum(root.left, sum) + pathSum(root.right, sum) +
+                helper(root, sum);
+    }
+    public int helper(TreeNode root, int sum) {
+        if (root == null)
+            return 0;
+        int count = (root.val == sum) ? 1 : 0;
+        count += helper(root.left, sum - root.val);
+        count += helper(root.right, sum - root.val);
+        return count;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

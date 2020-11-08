@@ -30,12 +30,14 @@
 |25|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DiameterOfBinaryTree.java)|Easy|10-28-2020|
 |26|404|[Sum of Left Leaves](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SumOfLeftLeaves.java)|Easy|10-27-2020|
 |27|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestConsecutiveSequence.java)|Hard|10-31-2020|
-|28|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PathSumIii.java)|Medium|11-02-2020|
+|28|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PathSumIii.java)|Medium|11-06-2020|
 |29|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DistributeCoinsInBinaryTree.java)|Medium|TBD|
 |30|669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TrimABinarySearchTree.java)|Easy|11-02-2020|
 |31|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TrimABinarySearchTree.java)|Medium|11-02-2020|
 |32|1325|[Delete Leaves with a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DeleteLeavesWithAGivenValue.java) |Medium|11-02-2020|
 |33|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BalancedBinaryTree.java)|Easy|11-04-2020|
+|34|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SymmetricTree.java)|Easy|11-06-2020|
+
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 
@@ -46,7 +48,7 @@
 | [Day of Week That is K Days later](https://leetcode.com/discuss/interview-question/703151/) | [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DayOfWeekKDaysLater.java) | 10-29-2020|
 | [Missing Dice Rolls]()|
 | [Longest Consecutive Sequence(LC128)](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestConsecutiveSequence.java)|10-31-2020|
-
+| [Jafar Aladdin Checker Game, Similar as Max Depth of Binary Tree](https://webcache.googleusercontent.com/search?q=cache:8YyCWMNWyrEJ:https://leetcode.com/discuss/interview-question/533314/checkers-game-jafar-is-playing-checkers-with-his-friend-alladin+&cd=1&hl=en&ct=clnk&gl=us)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/JafarCheckerGame.java)|11-08-2020|
 
 ### Amazon Online Assessment Questions ([Link1](https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions), [Link2](https://algo.monster/problems/amazon_online_assessment_questions))
 

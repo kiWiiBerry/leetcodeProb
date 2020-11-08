@@ -49,8 +49,19 @@ public class DiameterOfBinaryTree {
  }
 
 class Solution {
+    int diameter = 0;
+
     public int diameterOfBinaryTree(TreeNode root) {
-        return 0;
+        helper(root);
+        return diameter;
+    }
+    public int helper(TreeNode root) {
+        if (root == null)
+            return 0;
+        int left = helper(root.left);
+        int right = helper(root.right);
+        diameter = Math.max(left + right, diameter);
+        return Math.max(left, right) + 1;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
