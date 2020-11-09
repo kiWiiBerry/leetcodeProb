@@ -2,9 +2,9 @@ package com.yiyiwii.leetcode.editor.en;
 
 import java.util.ArrayList;
 
-public class VisibleBinaryNode {
+public class MsVisibleBinaryNode {
     public static void main(String[] args) {
-        Solution solution = new VisibleBinaryNode().new Solution();
+        Solution solution = new MsVisibleBinaryNode().new Solution();
     }
     /**
      * Definition for a binary tree node.

@@ -1,8 +1,8 @@
 package com.yiyiwii.leetcode.editor.en;
 
-public class StringWithoutThreeIdenticalConsecutiveLetters {
+public class MsStringWithoutThreeIdenticalConsecutiveLetters {
     public static void main(String[] args) {
-        Solution solution = new StringWithoutThreeIdenticalConsecutiveLetters().new Solution();
+        Solution solution = new MsStringWithoutThreeIdenticalConsecutiveLetters().new Solution();
         String s1 = "eedaaad";
         String s2 = "xxxtxxx";
         String s3 = "uuuuxaaaaxuuu";

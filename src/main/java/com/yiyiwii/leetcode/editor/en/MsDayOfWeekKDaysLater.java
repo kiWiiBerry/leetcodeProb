@@ -11,9 +11,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class DayOfWeekKDaysLater {
+public class MsDayOfWeekKDaysLater {
     public static void main(String[] args) {
-        Solution solution = new DayOfWeekKDaysLater().new Solution();
+        Solution solution = new MsDayOfWeekKDaysLater().new Solution();
         String day = "Wed";
         int K = 3;
         String res = solution.dayOfWeekWithK(day, K);

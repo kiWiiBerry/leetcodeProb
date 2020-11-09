@@ -43,12 +43,13 @@
 
 | Title | Solution | Date |
 | ------| -------- | ---- |
-| [Count Visible Nodes in Binary Tree](https://leetcode.com/discuss/interview-question/546703/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/VisibleBinaryNode.java) |10-15-2020|
-| [String without Three Identical Consecutive Letters](https://leetcode.com/discuss/interview-question/398039/)| [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/StringWithoutThreeIdenticalConsecutiveLetters.java)|TBD|
-| [Day of Week That is K Days later](https://leetcode.com/discuss/interview-question/703151/) | [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DayOfWeekKDaysLater.java) | 10-29-2020|
+| [Count Visible Nodes in Binary Tree](https://leetcode.com/discuss/interview-question/546703/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsVisibleBinaryNode.java) |10-15-2020|
+| [String without Three Identical Consecutive Letters](https://leetcode.com/discuss/interview-question/398039/)| [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsStringWithoutThreeIdenticalConsecutiveLetters.java)|TBD|
+| [Day of Week That is K Days later](https://leetcode.com/discuss/interview-question/703151/) | [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsDayOfWeekKDaysLater.java) | 10-29-2020|
 | [Missing Dice Rolls]()|
-| [Longest Consecutive Sequence(LC128)](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestConsecutiveSequence.java)|10-31-2020|
-| [Jafar Aladdin Checker Game, Similar as Max Depth of Binary Tree](https://webcache.googleusercontent.com/search?q=cache:8YyCWMNWyrEJ:https://leetcode.com/discuss/interview-question/533314/checkers-game-jafar-is-playing-checkers-with-his-friend-alladin+&cd=1&hl=en&ct=clnk&gl=us)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/JafarCheckerGame.java)|11-08-2020|
+| [Longest Consecutive Sequence(LC128)](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsLongestConsecutiveSequence.java)|10-31-2020|
+| [Jafar Aladdin Checker Game, Similar as Max Depth of Binary Tree](https://webcache.googleusercontent.com/search?q=cache:8YyCWMNWyrEJ:https://leetcode.com/discuss/interview-question/533314/checkers-game-jafar-is-playing-checkers-with-his-friend-alladin+&cd=1&hl=en&ct=clnk&gl=us)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/OthersJafarCheckerGame.java)|11-08-2020|
+| [Minimal Turns of 2 Sets of 6-face Dices Sum to Be Equal](https://leetcode.com/discuss/interview-question/877070/Microsoft-Interview-Question/720312)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsMinTurnTwoEqualSumDice.java) | 11-08-2020|
 
 ### Amazon Online Assessment Questions ([Link1](https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions), [Link2](https://algo.monster/problems/amazon_online_assessment_questions))
 

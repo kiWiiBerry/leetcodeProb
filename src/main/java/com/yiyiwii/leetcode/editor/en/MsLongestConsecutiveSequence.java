@@ -34,13 +34,12 @@
 package com.yiyiwii.leetcode.editor.en;
 
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class LongestConsecutiveSequence {
+public class MsLongestConsecutiveSequence {
     public static void main(String[] args) {
-        Solution solution = new LongestConsecutiveSequence().new Solution();
+        Solution solution = new MsLongestConsecutiveSequence().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {

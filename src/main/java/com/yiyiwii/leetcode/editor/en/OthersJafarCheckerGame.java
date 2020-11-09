@@ -31,9 +31,7 @@ package com.yiyiwii.leetcode.editor.en;
 //This functions returns 0.
 //}
 
-import java.util.Stack;
-
-public class JafarCheckerGame {
+public class OthersJafarCheckerGame {
     // Similar as Max Depth of Binary Tree
 
     // Recusive method
@@ -45,6 +43,7 @@ public class JafarCheckerGame {
             if (value.indexOf(jafar) > 0) {
                 jafarPosCol = value.indexOf(jafar);
                 jafarPosRow = i;
+                break;
             }
         }
         return helper(B, jafarPosRow, jafarPosCol);
@@ -82,6 +81,7 @@ public class JafarCheckerGame {
 //            if (value.indexOf(jafar) > 0) {
 //                jafarPosCol = value.indexOf(jafar);
 //                jafarPosRow = i;
+//                break;
 //            }
 //        }
 //
@@ -92,8 +92,8 @@ public class JafarCheckerGame {
 //
 //        while (!stack.isEmpty()) {
 //            int[] currNode = stack.pop();
-//            int temp = cnt.pop();
-//            max = Math.max(temp, max);
+//            int tmpCnt = cnt.pop();
+//            max = Math.max(tmpCnt, max);
 //            if (currNode[0] < 2) {
 //                continue;
 //            } else {
@@ -104,12 +104,12 @@ public class JafarCheckerGame {
 //                if (jafarPos >= 2 && alaFirstR.charAt(jafarPos - 1) == aladdin
 //                        && alaSecondR.charAt(jafarPos - 2) == dot) {
 //                    stack.push(new int[]{currNode[0] - 2, jafarPos - 2});
-//                    cnt.push(temp + 1);
+//                    cnt.push(tmpCnt + 1);
 //                }
 //                if (jafarPos < colN - 2 && alaFirstR.charAt(jafarPos + 1) == aladdin
 //                        && alaSecondR.charAt(jafarPos + 2) == dot) {
 //                    stack.push(new int[]{currNode[0] - 2, jafarPos + 2});
-//                    cnt.push(temp + 1);
+//                    cnt.push(tmpCnt + 1);
 //                }
 //            }
 //        }
@@ -142,9 +142,9 @@ public class JafarCheckerGame {
                 "..X.X.",
                 "...O.."
         };
-        JafarCheckerGame ch=new JafarCheckerGame();
+        OthersJafarCheckerGame ch=new OthersJafarCheckerGame();
         System.out.println(ch.solution(input));
-        System.out.println(ch.solution(input2));
-        System.out.println(ch.solution(input3));
+//        System.out.println(ch.solution(input2));
+//        System.out.println(ch.solution(input3));
     }
 }
