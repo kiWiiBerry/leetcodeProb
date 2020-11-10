@@ -40,18 +40,15 @@ public class MsMinTurnTwoEqualSumDice {
         List<Integer> lessSum, largerSum;
         if (diff == 0) {
             return 0;
-        } else if (diff < 0) {
-            lessSum = listA;
-            largerSum = listB;
         } else {
-            lessSum = listB;
-            largerSum = listA;
+            lessSum = (diff < 0) ? listA : listB;
+            largerSum = (diff < 0) ? listB : listA;
         }
         System.out.println(lessSum.toString());
         System.out.println(largerSum.toString());
         System.out.println(diff);
 
-        Collections.sort(lessSum);   // asceding
+        Collections.sort(lessSum);        // ascending
         Collections.sort(largerSum, Collections.reverseOrder());  //descending
 
         int cnt = 0, val = 0;
