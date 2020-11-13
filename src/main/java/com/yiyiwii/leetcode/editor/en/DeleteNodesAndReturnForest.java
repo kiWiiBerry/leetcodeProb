@@ -56,28 +56,70 @@ public class DeleteNodesAndReturnForest {
 
 class Solution {
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
-        List<TreeNode> forest = new ArrayList<>();
+        if (root == null) return null;
+
+        List<TreeNode> res = new ArrayList<>();
         Set<Integer> set = Arrays.stream(to_delete).boxed().collect(Collectors.toSet());
-        root = helper(root, set, forest);
-        if (root != null) {
-            forest.add(root);
+        if (!set.contains(root.val)) {
+            res.add(root);
         }
-        return forest;
-    }
-    public TreeNode helper(TreeNode root, Set<Integer> set, List<TreeNode> forest) {
-        if (root == null)
-            return null;
-        root.left = helper(root.left, set, forest);
-        root.right = helper(root.right, set, forest);
-        if (set.contains(root.val)) {
-            if (root.left != null)
-                forest.add(root.left);
-            if (root.right != null)
-                forest.add(root.right);
-            return null;
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            TreeNode left = node.left;
+            TreeNode right = node.right;
+            if (set.contains(node.val)) {
+                if (left != null && !set.contains(left.val)) {
+                    res.add(left);
+                }
+                if (right != null && !set.contains(right.val)) {
+                    res.add(right);
+                }
+            }
+            if (left != null) {
+                queue.offer(left);
+                if (set.contains(left.val)) {
+                    node.left = null;
+                }
+            }
+            if (right != null) {
+                queue.offer(right);
+                if (set.contains(right.val)) {
+                    node.right = null;
+                }
+            }
         }
-        return root;
+
+        return res;
     }
+
+//    // Post-order DFS
+//    public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
+//        List<TreeNode> forest = new ArrayList<>();
+//        Set<Integer> set = Arrays.stream(to_delete).boxed().collect(Collectors.toSet());
+//        root = helper(root, set, forest);
+//        if (root != null) {
+//            forest.add(root);
+//        }
+//        return forest;
+//    }
+//    public TreeNode helper(TreeNode root, Set<Integer> set, List<TreeNode> forest) {
+//        if (root == null)
+//            return null;
+//        root.left = helper(root.left, set, forest);
+//        root.right = helper(root.right, set, forest);
+//        if (set.contains(root.val)) {
+//            if (root.left != null)
+//                forest.add(root.left);
+//            if (root.right != null)
+//                forest.add(root.right);
+//            return null;
+//        }
+//        return root;
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
