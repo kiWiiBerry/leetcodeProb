@@ -38,7 +38,7 @@
 |33|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BalancedBinaryTree.java)|Easy|11-04-2020|
 |34|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SymmetricTree.java)|Easy|11-06-2020|
 |35|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DeleteNodesAndReturnForest.java)|Medium|11-11-2020|
-
+|36|170|[Two Sum III Data Structure Design](https://www.lintcode.com/problem/two-sum-iii-data-structure-design/description)|[Java]()
 
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))

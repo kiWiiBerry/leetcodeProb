@@ -66,7 +66,7 @@ class Solution {
     }
     public TreeNode helper(TreeNode root, Set<Integer> set, List<TreeNode> forest) {
         if (root == null)
-            return root;
+            return null;
         root.left = helper(root.left, set, forest);
         root.right = helper(root.right, set, forest);
         if (set.contains(root.val)) {
@@ -74,7 +74,7 @@ class Solution {
                 forest.add(root.left);
             if (root.right != null)
                 forest.add(root.right);
-            root = null;
+            return null;
         }
         return root;
     }
