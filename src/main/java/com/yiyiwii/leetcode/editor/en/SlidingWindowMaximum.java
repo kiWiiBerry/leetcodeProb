@@ -65,6 +65,8 @@
 package com.yiyiwii.leetcode.editor.en;
 
 import java.util.Collections;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 public class SlidingWindowMaximum {
@@ -74,7 +76,22 @@ public class SlidingWindowMaximum {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        return null;
+        Deque<Integer> queue = new LinkedList<>();
+        int[] res = new int[nums.length - k + 1];
+        for (int i = 0; i < nums.length; i++) {
+            if (!queue.isEmpty() && queue.peekFirst() == (i - k)) {
+                queue.pollFirst();
+            }
+            while (!queue.isEmpty() && nums[queue.peekLast()] < nums[i]) {
+                queue.pollLast();
+            }
+            queue.offerLast(i);
+            if (i >= k - 1) {
+                res[i] = nums[queue.peekFirst()];
+            }
+
+        }
+        return res;
     }
 //    // Time Limit Exceeded
 //    public int[] maxSlidingWindow(int[] nums, int k) {
