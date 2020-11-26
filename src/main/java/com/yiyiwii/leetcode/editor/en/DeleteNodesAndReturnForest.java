@@ -36,28 +36,9 @@ import java.util.stream.Collectors;
 
 public class DeleteNodesAndReturnForest {
 
-
-    public static void main(String []args){
-        // System.out.println("Hello World");
-        try {
-            int x = 0;
-            for (x = 1; x < 4; x++) ;
-                System.out.println(x);
-
-        } catch(Exception e) {}
-        finally {
-            System.out.println("error");
-        }
+    public static void main(String[] args) {
+        Solution solution = new DeleteNodesAndReturnForest().new Solution();
     }
-
-
-
-//    public static void main(String[] args) {
-//        Solution solution = new DeleteNodesAndReturnForest().new Solution();
-//    }
-
-
-
 
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
