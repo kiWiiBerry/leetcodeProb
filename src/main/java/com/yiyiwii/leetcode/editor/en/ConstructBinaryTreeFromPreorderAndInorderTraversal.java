@@ -57,16 +57,22 @@ class Solution {
         }
         return helper(map, preorder, 0, inorder.length - 1, 0);
     }
+
+    /**
+     * int st: start index in preorder
+     * int end: end index in preorder
+     * int curr: the root index in preorder
+     * */
     public TreeNode helper(HashMap<Integer, Integer> map,
                            int[] preorder,
                            int st, int end, int curr) {
         if (st > end) return null;
         int rootNum = preorder[curr];
         int index = map.get(rootNum);
-        int leftLen = index - st - 1;
+        int leftLen = index - st;
         TreeNode node = new TreeNode(rootNum);
         node.left = helper(map, preorder, st, index - 1, curr + 1);
-        node.right = helper(map, preorder, index + 1, end, curr + 2 + leftLen);
+        node.right = helper(map, preorder, index + 1, end, curr + 1 + leftLen);
         return node;
     }
 
