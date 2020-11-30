@@ -38,7 +38,15 @@
 |33|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BalancedBinaryTree.java)|Easy|11-04-2020|
 |34|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SymmetricTree.java)|Easy|11-06-2020|
 |35|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DeleteNodesAndReturnForest.java)|Medium|11-11-2020|
-|36|170|[Two Sum III Data Structure Design](https://www.lintcode.com/problem/two-sum-iii-data-structure-design/description)|[Java]()
+|36|170|[Two Sum III Data Structure Design *](https://www.lintcode.com/problem/two-sum-iii-data-structure-design/description)|[Java]()
+|37|617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MergeTwoBinaryTrees.java)|Easy|11-29-2020|
+|38|513|[Find Bottom Left Tree Value *](https://leetcode.com/problems/find-bottom-left-tree-value/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/FindBottomLeftTreeValue.java)|Medium|11-29-2020|
+|39|889|[Construct Binary Tree from Preorder and Postorder *](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ConstructBinaryTreePreorderAndPostorder.java)|Medium|11-29-2020|
+|40|109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ConvertSortedListToBinarySearchTree.java)|Medium|11-29-2020|
+|41|897|[Increasing Order Search Tree *](https://leetcode.com/problems/increasing-order-search-tree/) |[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/IncreasingOrderSearchTree.java)|Easy|11-30-2020|
+|42|653|[Two Sum IV - Input is a BST *](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/IncreasingOrderSearchTree.java)|Easy|11-30-2020|
+|43|99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RecoverBinarySearchTree.java)|Hard|11-30-2020|
+|44|
 
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
