@@ -36,22 +36,38 @@ public class IncreasingOrderSearchTree {
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+ * */
+ public class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode() {}
+     TreeNode(int val) { this.val = val; }
+     TreeNode(int val, TreeNode left, TreeNode right) {
+         this.val = val;
+         this.left = left;
+         this.right = right;
+     }
+ }
+
 class Solution {
+    TreeNode pre;
     public TreeNode increasingBST(TreeNode root) {
-        
+        TreeNode dummy = new TreeNode(0);
+        pre = dummy;
+        helper(root);
+        return dummy.right;
+    }
+    public void helper(TreeNode node) {
+        if (node == null) return;
+
+        helper(node.left);
+
+        pre.right = node;
+        pre = node;
+        node.left = null;
+
+        helper(node.right);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
