@@ -47,6 +47,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.Arrays;
+
 public class AssignCookies {
     public static void main(String[] args) {
         Solution solution = new AssignCookies().new Solution();
@@ -54,7 +57,13 @@ public class AssignCookies {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
-        
+        Arrays.sort(g);
+        Arrays.sort(s);
+        int i = 0;
+        for (int j = 0; i < g.length && j < s.length; j++) {
+            if (g[i] <= s[j]) i++;
+        }
+        return i;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
