@@ -64,6 +64,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.Arrays;
+
 public class MinimumNumberOfArrowsToBurstBalloons {
     public static void main(String[] args) {
         Solution solution = new MinimumNumberOfArrowsToBurstBalloons().new Solution();
@@ -71,7 +74,22 @@ public class MinimumNumberOfArrowsToBurstBalloons {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findMinArrowShots(int[][] points) {
-        
+        if (points == null || points.length == 0) return 0;
+        Arrays.sort(points, (a, b) -> Integer.compare(a[0],b[0]));
+
+        int st = points[0][0], end = points[0][1];
+        int cnt = 1;
+        for (int i = 1; i < points.length; i++) {
+            if (points[i][0] <= end) {
+                st = points[i][0];
+                end = Math.min(points[i][1], end);
+            } else {
+                cnt++;
+                st = points[i][0];
+                end = points[i][1];
+            }
+        }
+        return cnt;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
