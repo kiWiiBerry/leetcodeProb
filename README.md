@@ -54,8 +54,22 @@
 |49|763|[Partition Labels *](https://leetcode.com/problems/partition-labels/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PartitionLabels.java)|Medium|12-02-2020|
 |50|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BestTimeToBuyAndSellStockIi.java)|Easy|12-02-2020|
 |51|665|[Non-decreasing Array *](https://leetcode.com/problems/non-decreasing-array/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/NonDecreasingArray.java)|Easy|12-02-2020|
-
-
+|52|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PalindromeLinkedList.java)|Easy | 12-06-2020 | 
+|53|464|[Can I Win *](https://leetcode.com/problems/can-i-win/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/CanIWin.java)|Medium|12-06-2020|
+|54|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/FindFirstAndLastPositionOfElementInSortedArray.java)|Medium|12-06-2020|
+|55|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SearchInRotatedSortedArrayIi.java)|Medium|12-06-2020|
+|56|540|[Single Element in a Sorted Array *](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SingleElementInASortedArray.java)|Medium|12-06-2020|
+|57|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MedianOfTwoSortedArrays.java)|Hard|12-06-2020|
+|58|215|[Kth Largeset Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/KthLargestElementInAnArray.java)|Medium|12-06-2020|
+|60|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TopKFrequentElements.java)|Medium|12-06-2020|
+|61|451|[Sort Characters By Frequency *](https://leetcode.com/problems/sort-characters-by-frequency/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SortCharactersByFrequency.java)|Medium|12-06-2020|
+|62|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SortColors.java)|Medium|12-06-2020|
+|63|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MaxAreaOfIsland.java)|Medium|12-06-2020|
+|64|547|[Friend Circles](https://leetcode.com/problems/friend-circles/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/FriendCircles.java)|Medium|12-06-2020|
+|65|417|[Pacific Atlantic Water Flow *](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PacificAtlanticWaterFlow.java)|Medium|12-06-2020|
+|66|46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/Permutations.java)|Medium|12-06-2020|
+|67|77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/Combinations.java)|Medium|12-06-2020|
+|68|79|[Word Search](https://leetcode.com/problems/word-search/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/WordSearch.java)|Medium|12-06-2020|
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 
@@ -68,6 +82,8 @@
 | [Longest Consecutive Sequence(LC128)](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsLongestConsecutiveSequence.java)|10-31-2020|
 | [Jafar Aladdin Checker Game, Similar as Max Depth of Binary Tree](https://webcache.googleusercontent.com/search?q=cache:8YyCWMNWyrEJ:https://leetcode.com/discuss/interview-question/533314/checkers-game-jafar-is-playing-checkers-with-his-friend-alladin+&cd=1&hl=en&ct=clnk&gl=us)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/OthersJafarCheckerGame.java)|11-08-2020|
 | [Minimal Turns of 2 Sets of 6-face Dices Sum to Be Equal](https://leetcode.com/discuss/interview-question/877070/Microsoft-Interview-Question/720312)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsMinTurnTwoEqualSumDice.java) | 11-08-2020|
+|[Palindrome Linked List, LC234](https://leetcode.com/problems/palindrome-linked-list/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PalindromeLinkedList.java)| 12-06-2020 | 
+|
 
 ### Amazon Online Assessment Questions ([Link1](https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions), [Link2](https://algo.monster/problems/amazon_online_assessment_questions))
 
