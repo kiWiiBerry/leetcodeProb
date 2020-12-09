@@ -107,7 +107,35 @@
 |103|241|[Different Ways to Add Parentheses *](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DifferentWaysToAddParentheses.java)|Medium|12-08-2020|
 |104|932|[Beautiful Array *](https://leetcode.com/problems/beautiful-array/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BeautifulArray.java)|Medium|12-08-2020|
 |105|312|[Burst Balloons *](https://leetcode.com/problems/burst-balloons/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BurstBalloons.java)|Hard|12-08-2020|
-|106|
+|106|448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/FindAllNumbersDisappearedInAnArray.java)|Easy|12-08-2020|
+|107|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RotateImage.java)|Medium|12-08-2020|
+|108|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SearchA2dMatrixIi.java)|Medium|12-08-2020|
+|109|769|[Max Chunks to Make Sorted *](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MaxChunksToMakeSorted.java)|Medium|12-08-2020|
+|110|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ImplementQueueUsingStacks.java)|Easy|12-08-2020|
+|111|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MinStack.java)|Easy|12-08-2020|
+|112|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ValidParentheses.java)|Easy|12-08-2020|
+|113|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DailyTemperatures.java)|Medium|12-08-2020|
+|114|23|[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MergeKSortedLists.java)|Hard|12-08-2020|
+|115|218|[The Skyline Proplem *](https://leetcode.com/problems/the-skyline-problem/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TheSkylineProblem.java)|Hard|12-08-2020|
+|116|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SlidingWindowMaximum.java)|Hard|12-08-2020|
+|117|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TwoSum.java)|Easy|12-08-2020|
+|118|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestConsecutiveSequence.java)|Hard|12-08-2020|
+|119|149|[Max Points on a Line *](https://leetcode.com/problems/max-points-on-a-line/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MaxPointsOnALine.java)|Hard|12-08-2020|
+|120|332|[Reconstruct Itinerary *](https://leetcode.com/problems/reconstruct-itinerary/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ReconstructItinerary.java)|Medium|12-08-2020|
+|121|303|[Range Sum Query - Immutable *](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQueryImmutable.java)|Easy|12-08-2020|
+|122|304|[Range Sum Query 2D - Immutable *](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQuery2dImmutable.java)|Medium|12-08-2020|
+|123|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ReshapeTheMatrix.java)|Easy|12-08-2020|
+|124|503|[Next Greater Element II *](https://leetcode.com/problems/next-greater-element-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/NextGreaterElementIi.java)|Medium|12-08-2020|
+|125|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ContainsDuplicate.java)|Easy|12-08-2020|
+|126|697|[Degree of an Array *](https://leetcode.com/problems/degree-of-an-array/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DegreeOfAnArray.java)|Easy|12-08-2020|
+|127|594|[Longest Harmonious Subsequence *](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestHarmoniousSubsequence.java)|Easy|12-08-2020|
+|128|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/FindTheDuplicateNumber.java)|Medium|12-08-2020|
+|129|313|[Super Ugly Number *](https://leetcode.com/problems/super-ugly-number/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SuperUglyNumber.java)|Medium|12-08-2020|
+|130|870|[Advantage Shuffle *](https://leetcode.com/problems/advantage-shuffle/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/AdvantageShuffle.java)|Medium|12-08-2020|
+|131|307|[Range Sum Query - Mutable *](https://leetcode.com/problems/range-sum-query-mutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQueryMutable.java)|Medium|12-08-2020|
+
+
+
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 
@@ -120,8 +148,9 @@
 | [Longest Consecutive Sequence(LC128)](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsLongestConsecutiveSequence.java)|10-31-2020|
 | [Jafar Aladdin Checker Game, Similar as Max Depth of Binary Tree](https://webcache.googleusercontent.com/search?q=cache:8YyCWMNWyrEJ:https://leetcode.com/discuss/interview-question/533314/checkers-game-jafar-is-playing-checkers-with-his-friend-alladin+&cd=1&hl=en&ct=clnk&gl=us)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/OthersJafarCheckerGame.java)|11-08-2020|
 | [Minimal Turns of 2 Sets of 6-face Dices Sum to Be Equal](https://leetcode.com/discuss/interview-question/877070/Microsoft-Interview-Question/720312)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsMinTurnTwoEqualSumDice.java) | 11-08-2020|
-|[Palindrome Linked List, LC234](https://leetcode.com/problems/palindrome-linked-list/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PalindromeLinkedList.java)| 12-06-2020 | 
-|
+| [Palindrome Linked List, LC234](https://leetcode.com/problems/palindrome-linked-list/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PalindromeLinkedList.java)| 12-06-2020 | 
+
+
 
 ### Amazon Online Assessment Questions ([Link1](https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions), [Link2](https://algo.monster/problems/amazon_online_assessment_questions))
 
