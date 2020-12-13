@@ -19,15 +19,44 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
 public class FindAllNumbersDisappearedInAnArray {
     public static void main(String[] args) {
         Solution solution = new FindAllNumbersDisappearedInAnArray().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    // Method 2, Set
     public List<Integer> findDisappearedNumbers(int[] nums) {
-        
+        List<Integer> res = new ArrayList<>();
+        Set<Integer> set = new HashSet<>();
+        set = Arrays.stream(nums).boxed().collect(Collectors.toSet());
+        for (int i = 0; i < nums.length; i++) {
+            if (!set.contains(i + 1)){
+                res.add(i + 1);
+            }
+        }
+        return res;
     }
+//    // Method 1, in-place
+//    public List<Integer> findDisappearedNumbers(int[] nums) {
+//        List<Integer> res = new ArrayList<>();
+//        for (int num : nums){
+//            int pos = Math.abs(num) - 1;
+//            if (nums[pos] > 0) {
+//                nums[pos] = -nums[pos];
+//            }
+//        }
+//        for (int i = 0; i < nums.length; i++){
+//            if (nums[i] > 0) {
+//                res.add(i + 1);
+//            }
+//        }
+//        return res;
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
