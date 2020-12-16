@@ -112,8 +112,8 @@
 |108|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SearchA2dMatrixIi.java)|Medium|12-08-2020|
 |109|769|[Max Chunks to Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MaxChunksToMakeSorted.java)|Medium|12-13-2020|
 |110|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ImplementQueueUsingStacks.java)|Easy|12-15-2020|
-|111|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MinStack.java)|Easy|12-08-2020|
-|112|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ValidParentheses.java)|Easy|12-08-2020|
+|111|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MinStack.java)|Easy|12-15-2020|
+|112|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ValidParentheses.java)|Easy|12-15-2020|
 |113|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DailyTemperatures.java)|Medium|12-08-2020|
 |114|23|[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MergeKSortedLists.java)|Hard|12-08-2020|
 |115|218|[The Skyline Proplem *](https://leetcode.com/problems/the-skyline-problem/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TheSkylineProblem.java)|Hard|12-08-2020|
@@ -134,8 +134,10 @@
 |130|870|[Advantage Shuffle *](https://leetcode.com/problems/advantage-shuffle/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/AdvantageShuffle.java)|Medium|12-08-2020|
 |131|307|[Range Sum Query - Mutable *](https://leetcode.com/problems/range-sum-query-mutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQueryMutable.java)|Medium|12-08-2020|
 |132|438|[Find All Anagrams in A String *]()|[Java]()|Medium|12-10-2020|
-
-
+|133|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestValidParentheses.java)|Hard|12-15-2020|
+|134|1529|[Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BulbSwitcherIv.java)|Medium|12-15-2020|
+|135|650|[2 Keys Keyboard*](https://leetcode.com/problems/2-keys-keyboard/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TwoKeysKeyboard.java)|Medium|12-15-2020|
+|136|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/GenerateParentheses.java)|Medium|12-15-2020|
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 

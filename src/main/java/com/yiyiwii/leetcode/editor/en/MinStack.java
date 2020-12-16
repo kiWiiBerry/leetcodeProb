@@ -42,32 +42,44 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.Stack;
+
 public class MinStack {
     public static void main(String[] args) {
-        Solution solution = new MinStack().new Solution();
+        MinStackImpl solution = new MinStack().new MinStackImpl();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
-class MinStack {
+class MinStackImpl {
 
     /** initialize your data structure here. */
-    public MinStack() {
+    int min = Integer.MAX_VALUE;
+    Stack<Integer> stack = new Stack<>();
+
+    public MinStackImpl() {
         
     }
     
     public void push(int x) {
-        
+        if (x <= min) {
+            stack.push(min);
+            min = x;
+        }
+        stack.push(x);
     }
     
     public void pop() {
-        
+        if (stack.pop() == min) {
+            min = stack.pop();
+        }
     }
     
     public int top() {
-        
+        return stack.peek();
     }
     
     public int getMin() {
-        
+        return min;
     }
 }
 

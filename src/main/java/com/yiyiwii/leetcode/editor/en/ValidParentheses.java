@@ -56,6 +56,10 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.HashMap;
+import java.util.Stack;
+
 public class ValidParentheses {
     public static void main(String[] args) {
         Solution solution = new ValidParentheses().new Solution();
@@ -63,7 +67,23 @@ public class ValidParentheses {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isValid(String s) {
-        
+        HashMap<Character, Character> map = new HashMap<>();
+        map.put(')','(');
+        map.put('}', '{');
+        map.put(']', '[');
+        Stack<Character> stack = new Stack();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (!map.containsKey(c)) {
+                stack.push(c);
+            } else {
+                char topChar = stack.isEmpty() ? '#' : stack.pop();
+                if (topChar != map.get(c)) {
+                    return false;
+                }
+            }
+        }
+        return stack.isEmpty();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
