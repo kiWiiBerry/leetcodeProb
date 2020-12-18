@@ -15,6 +15,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.Stack;
+
 public class DailyTemperatures {
     public static void main(String[] args) {
         Solution solution = new DailyTemperatures().new Solution();
@@ -22,7 +25,16 @@ public class DailyTemperatures {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] dailyTemperatures(int[] T) {
-        
+        Stack<Integer> stack = new Stack();
+        int[] res = new int[T.length];
+        for (int i = 0; i < T.length; i++) {
+            while (!stack.isEmpty() && T[i] > T[stack.peek()]) {
+                int inx = stack.pop();
+                res[inx] = i - inx;
+            }
+            stack.push(i);
+        }
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
