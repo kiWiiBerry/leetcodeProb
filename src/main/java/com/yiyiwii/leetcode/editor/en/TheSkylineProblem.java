@@ -61,6 +61,11 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.PriorityQueue;
+
 public class TheSkylineProblem {
     public static void main(String[] args) {
         Solution solution = new TheSkylineProblem().new Solution();
@@ -68,7 +73,16 @@ public class TheSkylineProblem {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
-        
+        List<List<Integer>> res = new ArrayList<>();
+        PriorityQueue<int[]> queue = new PriorityQueue<int[]>((a, b) -> b[1] - a[1]);
+        int i = 0, len = buildings.length;
+        int curX, curH;
+        while (i < len || !queue.isEmpty()) {
+            if (queue.isEmpty() || i < len && buildings[i][0] < queue.poll()[1]) {
+                curX = buildings[i][0];
+                while (i < len && curX = buildings[i])
+            }
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
