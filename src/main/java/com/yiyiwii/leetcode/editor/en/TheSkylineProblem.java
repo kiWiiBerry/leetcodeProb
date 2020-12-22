@@ -62,9 +62,7 @@
 
 package com.yiyiwii.leetcode.editor.en;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class TheSkylineProblem {
     public static void main(String[] args) {
@@ -74,15 +72,32 @@ public class TheSkylineProblem {
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> res = new ArrayList<>();
-        PriorityQueue<int[]> queue = new PriorityQueue<int[]>((a, b) -> b[1] - a[1]);
-        int i = 0, len = buildings.length;
-        int curX, curH;
-        while (i < len || !queue.isEmpty()) {
-            if (queue.isEmpty() || i < len && buildings[i][0] < queue.poll()[1]) {
-                curX = buildings[i][0];
-                while (i < len && curX = buildings[i])
+        List<List<Integer>> heights = new ArrayList<>();
+        for (int[] b : buildings) {
+            heights.add(Arrays.asList(b[0], -b[2]));  // left corner
+            heights.add(Arrays.asList(b[1], b[2]));   // right corner
+        }
+        Collections.sort(heights, (a, b) -> {
+            if (a.get(0) != b.get(0)) {
+                return a.get(0) - b.get(0);   // x axis, ascending order
+            }
+            return a.get(1) - b.get(1);
+        });
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> (b - a));
+        pq.offer(0);
+        int prev = 0;
+        for (List<Integer> h : heights) {
+            if (h.get(1) < 0) {
+                pq.offer(-h.get(1));
+            } else {
+                pq.remove(h.get(1));
+            }
+            int cur = pq.peek();
+            if (prev != cur) {
+
             }
         }
+
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

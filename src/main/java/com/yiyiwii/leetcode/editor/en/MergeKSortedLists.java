@@ -79,6 +79,9 @@ class Solution {
         ListNode head = dummy;
 
         PriorityQueue<ListNode> queue = new PriorityQueue<>(lists.length, Comparator.comparingInt(e -> e.val));
+        // Ascending order
+        // PriorityQueue<ListNode> queue = new PriorityQueue<ListNode>(lists.length, (a, b) -> a.val - b.val);
+
         for (ListNode node : lists) {
             if (node != null)
                 queue.add(node);
