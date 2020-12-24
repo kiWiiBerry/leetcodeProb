@@ -81,23 +81,25 @@ class Solution {
             if (a.get(0) != b.get(0)) {
                 return a.get(0) - b.get(0);   // x axis, ascending order
             }
-            return a.get(1) - b.get(1);
+            return a.get(1) - b.get(1);  // same x axis, heights ascending order
+            // (a.get(0) != b.get(0)) ? a.get(0) - b.get(0) : a.get(1) - b.get(1)
         });
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> (b - a));
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> (b - a));  // descending order
         pq.offer(0);
         int prev = 0;
         for (List<Integer> h : heights) {
-            if (h.get(1) < 0) {
+            if (h.get(1) < 0) {   // if left point, insert height into queue
                 pq.offer(-h.get(1));
-            } else {
+            } else {              // if right point, remove height from queue
                 pq.remove(h.get(1));
             }
-            int cur = pq.peek();
-            if (prev != cur) {
-
+            int curr = pq.peek();
+            if (prev != curr) {
+                res.add(Arrays.asList(h.get(0), curr));
+                prev = curr;
             }
         }
-
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
