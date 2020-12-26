@@ -44,7 +44,7 @@ public class AdvantageShuffle {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] advantageCount(int[] A, int[] B) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

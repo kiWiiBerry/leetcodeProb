@@ -37,7 +37,7 @@
 package com.yiyiwii.leetcode.editor.en;
 public class RangeSumQuery2dImmutable {
     public static void main(String[] args) {
-        Solution solution = new RangeSumQuery2dImmutable().new Solution();
+//        NumMatrix solution = new RangeSumQuery2dImmutable().new NumMatrix(new int [][]);
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class NumMatrix {
@@ -47,7 +47,7 @@ class NumMatrix {
     }
     
     public int sumRegion(int row1, int col1, int row2, int col2) {
-        
+        return 0;
     }
 }
 

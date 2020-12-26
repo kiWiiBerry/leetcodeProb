@@ -38,6 +38,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.List;
+
 public class Combinations {
     public static void main(String[] args) {
         Solution solution = new Combinations().new Solution();
@@ -45,7 +48,7 @@ public class Combinations {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -39,6 +39,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.List;
+
 public class WordBreak {
     public static void main(String[] args) {
         Solution solution = new WordBreak().new Solution();
@@ -46,7 +49,7 @@ public class WordBreak {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
-        
+        return false;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

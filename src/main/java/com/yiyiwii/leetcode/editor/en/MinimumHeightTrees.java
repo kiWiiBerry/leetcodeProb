@@ -63,6 +63,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.List;
+
 public class MinimumHeightTrees {
     public static void main(String[] args) {
         Solution solution = new MinimumHeightTrees().new Solution();
@@ -70,7 +73,7 @@ public class MinimumHeightTrees {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

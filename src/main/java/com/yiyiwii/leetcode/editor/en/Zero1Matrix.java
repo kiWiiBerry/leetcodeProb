@@ -54,7 +54,7 @@ public class Zero1Matrix {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[][] updateMatrix(int[][] matrix) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

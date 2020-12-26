@@ -67,39 +67,97 @@ import java.util.*;
 public class TheSkylineProblem {
     public static void main(String[] args) {
         Solution solution = new TheSkylineProblem().new Solution();
+        int[][] buildings = {{1,10001,10000},{3000,10001,13001},{5000,10001,15001},{7000,10001,17001},
+                {9801,10001,1000},{9802,10001, 900},{9803,10001,10}};
+        solution.getSkyline(buildings);
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+//    public List<List<Integer>> getSkyline(int[][] buildings) {
+//        List<List<Integer>> res = new ArrayList<>();
+//        List<List<Integer>> heights = new ArrayList<>();
+//        for (int[] b : buildings) {
+//            heights.add(Arrays.asList(b[0], -b[2]));  // left corner
+//            heights.add(Arrays.asList(b[1], b[2]));   // right corner
+//        }
+//        Collections.sort(heights, (a, b) -> {
+//            if (a.get(0) != b.get(0)) {
+//                return a.get(0) - b.get(0);   // x axis, ascending order
+//            }
+//            return a.get(1) - b.get(1);  // same x axis, heights ascending order
+//        });
+//
+//        print2D(heights);
+//
+//        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> (b - a));  // descending order
+//        pq.offer(0);
+//        int prev = 0;
+//        for (List<Integer> h : heights) {
+//            System.out.println("x="+h.get(0)+"; h="+h.get(1));
+//            if (h.get(1) < 0) {   // if left point, insert height into queue
+//                pq.offer(-h.get(1));
+//            } else {              // if right point, remove height from queue
+//                pq.remove(h.get(1));
+//            }
+//            int curr = pq.peek();
+////            System.out.println(prev + "; " + curr);
+////            System.out.println(prev != curr);
+//
+//            if (prev != curr) {
+//                System.out.println(prev!=curr);
+//                System.out.println("prev: " + prev + "; curr=" + curr + "; x=" + h.get(0) + "; h.get(1)=" + h.get(1));
+//
+//                res.add(Arrays.asList(h.get(0), curr));
+//                prev = curr;
+//            }
+//        }
+//        return res;
+//    }
+//    public void print2D(List<List<Integer>> input) {
+//        for (int i = 0; i < input.size(); i++) {
+//            System.out.println(i + ": " + input.get(i));
+//        }
+//    }
     public List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> res = new ArrayList<>();
-        List<List<Integer>> heights = new ArrayList<>();
+        List<int[]> heights = new ArrayList<>();
         for (int[] b : buildings) {
-            heights.add(Arrays.asList(b[0], -b[2]));  // left corner
-            heights.add(Arrays.asList(b[1], b[2]));   // right corner
+            heights.add(new int[]{b[0], -b[2]});  // left corner
+            heights.add(new int[]{b[1], b[2]});   // right corner
         }
         Collections.sort(heights, (a, b) -> {
-            if (a.get(0) != b.get(0)) {
-                return a.get(0) - b.get(0);   // x axis, ascending order
+            if (a[0] != b[0]) {
+                return a[0] - b[0];   // x axis, ascending order
             }
-            return a.get(1) - b.get(1);  // same x axis, heights ascending order
+            return a[1] - b[1];  // same x axis, heights ascending order
             // (a.get(0) != b.get(0)) ? a.get(0) - b.get(0) : a.get(1) - b.get(1)
         });
+
+        print2D(heights);
+
         PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> (b - a));  // descending order
         pq.offer(0);
         int prev = 0;
-        for (List<Integer> h : heights) {
-            if (h.get(1) < 0) {   // if left point, insert height into queue
-                pq.offer(-h.get(1));
+        for (int[] h : heights) {
+            if (h[1] < 0) {   // if left point, insert height into queue
+                pq.offer(-h[1]);
             } else {              // if right point, remove height from queue
-                pq.remove(h.get(1));
+                pq.remove(h[1]);
             }
             int curr = pq.peek();
             if (prev != curr) {
-                res.add(Arrays.asList(h.get(0), curr));
+                System.out.println("prev: " + prev + "; curr=" + curr + "; x=" + h[0] + "; h.get(1)=" + h[1]);
+
+                res.add(Arrays.asList(h[0], curr));
                 prev = curr;
             }
         }
         return res;
+    }
+    public void print2D(List<int[]> input) {
+        for (int i = 0; i < input.size(); i++) {
+            System.out.println(i + ": " + input.get(i)[0] + ", " + input.get(i)[1]);
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

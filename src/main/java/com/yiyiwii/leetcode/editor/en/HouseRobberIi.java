@@ -53,7 +53,7 @@ public class HouseRobberIi {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int rob(int[] nums) {
-        
+        return 0;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

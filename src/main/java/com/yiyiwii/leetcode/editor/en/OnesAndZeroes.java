@@ -47,7 +47,7 @@ public class OnesAndZeroes {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findMaxForm(String[] strs, int m, int n) {
-        
+        return 0;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

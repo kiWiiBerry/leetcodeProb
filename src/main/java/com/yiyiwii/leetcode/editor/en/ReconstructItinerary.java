@@ -35,6 +35,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.List;
+
 public class ReconstructItinerary {
     public static void main(String[] args) {
         Solution solution = new ReconstructItinerary().new Solution();
@@ -42,7 +45,7 @@ public class ReconstructItinerary {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<String> findItinerary(List<List<String>> tickets) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

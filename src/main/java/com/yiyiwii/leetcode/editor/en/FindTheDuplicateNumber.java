@@ -48,7 +48,7 @@ public class FindTheDuplicateNumber {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findDuplicate(int[] nums) {
-        
+        return 0;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

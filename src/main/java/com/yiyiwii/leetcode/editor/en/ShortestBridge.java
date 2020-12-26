@@ -37,7 +37,7 @@ public class ShortestBridge {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int shortestBridge(int[][] A) {
-        
+        return 0;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

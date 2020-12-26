@@ -38,6 +38,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.List;
+
 public class FindAllAnagramsInAString {
     public static void main(String[] args) {
         Solution solution = new FindAllAnagramsInAString().new Solution();
@@ -45,7 +48,7 @@ public class FindAllAnagramsInAString {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

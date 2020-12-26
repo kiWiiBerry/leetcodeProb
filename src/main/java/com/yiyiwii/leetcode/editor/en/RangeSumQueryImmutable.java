@@ -41,9 +41,9 @@
 
 package com.yiyiwii.leetcode.editor.en;
 public class RangeSumQueryImmutable {
-    public static void main(String[] args) {
-        Solution solution = new RangeSumQueryImmutable().new Solution();
-    }
+//    public static void main(String[] args) {
+//        Solution solution = new RangeSumQueryImmutable().new Solution();
+//    }
     //leetcode submit region begin(Prohibit modification and deletion)
 class NumArray {
 
@@ -52,7 +52,7 @@ class NumArray {
     }
     
     public int sumRange(int i, int j) {
-        
+        return 0;
     }
 }
 

@@ -27,6 +27,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.List;
+
 public class DifferentWaysToAddParentheses {
     public static void main(String[] args) {
         Solution solution = new DifferentWaysToAddParentheses().new Solution();
@@ -34,7 +37,7 @@ public class DifferentWaysToAddParentheses {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> diffWaysToCompute(String input) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

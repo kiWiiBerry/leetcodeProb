@@ -56,7 +56,7 @@ public class LongestCommonSubsequence {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
-        
+        return 0;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

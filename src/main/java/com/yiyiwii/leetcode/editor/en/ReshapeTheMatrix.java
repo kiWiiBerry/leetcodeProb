@@ -62,7 +62,7 @@ public class ReshapeTheMatrix {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
