@@ -81,7 +81,7 @@ class Solution {
 //            heights.add(Arrays.asList(b[1], b[2]));   // right corner
 //        }
 //        Collections.sort(heights, (a, b) -> {
-//            if (a.get(0) != b.get(0)) {
+//            if (a.get(0).equals(b.get(0))) {     // large Integer value should use equals to compare
 //                return a.get(0) - b.get(0);   // x axis, ascending order
 //            }
 //            return a.get(1) - b.get(1);  // same x axis, heights ascending order
