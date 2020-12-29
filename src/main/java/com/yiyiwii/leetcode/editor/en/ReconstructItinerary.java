@@ -36,17 +36,61 @@
 
 package com.yiyiwii.leetcode.editor.en;
 
-import java.util.List;
+import java.util.*;
 
 public class ReconstructItinerary {
     public static void main(String[] args) {
         Solution solution = new ReconstructItinerary().new Solution();
+        List<List<String>> flights = new ArrayList(Arrays.asList(
+                Arrays.asList("MUC", "LHR"),Arrays.asList("JFK", "MUC"),
+                Arrays.asList("SFO", "SJC"),Arrays.asList("LHR", "SFO")
+        ));
+        HashMap<String, PriorityQueue<String>> graph = solution.buildMap(flights);
+        solution.printGraph(graph);
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<String> findItinerary(List<List<String>> tickets) {
-        return null;
+        List<String> res = new ArrayList<>();
+        if (tickets == null || tickets.size() == 0) return res;
+        HashMap<String, PriorityQueue<String>> map = new HashMap<>();
+        for (List<String> t : tickets) {
+            map.putIfAbsent(t.get(0), new PriorityQueue<String>());
+            map.get(t.get(0)).offer(t.get(1));
+        }
+        Stack<String> s = new Stack();
+        s.push("JFK");
+        while (!s.isEmpty()) {
+            String next = s.peek();
+
+            if (map.get(next) != null && !map.get(next).isEmpty() ) {
+                s.push(map.get(next).poll());
+            } else {
+                res.add(0, next);
+                s.pop();
+            }
+        }
+
+        return res;
     }
+    public HashMap<String, PriorityQueue<String>> buildMap(List<List<String>> tickets) {
+        HashMap<String, PriorityQueue<String>> map = new HashMap<>();
+        for (List<String> t : tickets) {
+            map.putIfAbsent(t.get(0), new PriorityQueue<String>());
+            map.get(t.get(0)).offer(t.get(1));
+        }
+        return map;
+    }
+    public void printGraph(HashMap<String, PriorityQueue<String>> graph) {
+        for (Map.Entry<String, PriorityQueue<String>> entry : graph.entrySet()) {
+            System.out.println("key: " + entry.getKey() + ", value: " + entry.getValue().toString());
+        }
+    }
+//    public void dfs(String from, Map<String, PriorityQueue<String>> flights,
+//                    List<String> res) {
+//        PriorityQueue<String> nexts = flights.get(from);
+//        while ()
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
