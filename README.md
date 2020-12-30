@@ -121,7 +121,7 @@
 |117|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TwoSum.java)|Easy|12-08-2020|
 |118|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestConsecutiveSequence.java)|Hard|12-08-2020|
 |119|149|[Max Points on a Line *](https://leetcode.com/problems/max-points-on-a-line/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MaxPointsOnALine.java)|Hard|12-08-2020|
-|120|332|[Reconstruct Itinerary *](https://leetcode.com/problems/reconstruct-itinerary/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ReconstructItinerary.java)|Medium|12-08-2020|
+|120|332|[Reconstruct Itinerary *](https://leetcode.com/problems/reconstruct-itinerary/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ReconstructItinerary.java)|Medium|12-29-2020|
 |121|303|[Range Sum Query - Immutable *](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQueryImmutable.java)|Easy|12-08-2020|
 |122|304|[Range Sum Query 2D - Immutable *](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQuery2dImmutable.java)|Medium|12-08-2020|
 |123|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ReshapeTheMatrix.java)|Easy|12-08-2020|
@@ -139,7 +139,18 @@
 |135|650|[2 Keys Keyboard*](https://leetcode.com/problems/2-keys-keyboard/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TwoKeysKeyboard.java)|Medium|12-15-2020|
 |136|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/GenerateParentheses.java)|Medium|12-15-2020|
 |137|295|[Find Median from Data Stream *](https://leetcode.com/problems/find-median-from-data-stream/)|[Java]()|Hard|12-28-2020|
-|138|
+|138|503|[]
+
+
+### Schedule
+Dec 30, 2020
+* 739, 503
+* 303, 697, 594, 870
+* 307
+
+Dec 31, 2020
+Sorting, Divide & Conquer
+
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 
