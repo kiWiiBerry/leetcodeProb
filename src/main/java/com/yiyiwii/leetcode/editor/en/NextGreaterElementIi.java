@@ -23,6 +23,11 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Deque;
+
 public class NextGreaterElementIi {
     public static void main(String[] args) {
         Solution solution = new NextGreaterElementIi().new Solution();
@@ -30,7 +35,17 @@ public class NextGreaterElementIi {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
-        return null;
+        int[] res = new int[nums.length];
+        Arrays.fill(res, -1);
+        Deque<Integer> stack = new ArrayDeque<>();
+
+        for (int i = 0; i < 2 * nums.length; i++) {
+            while (!stack.isEmpty() && nums[i % nums.length] > nums[stack.peek()]) {
+                res[stack.pop()] = nums[i % nums.length];
+            }
+            stack.push(i % nums.length);
+        }
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
