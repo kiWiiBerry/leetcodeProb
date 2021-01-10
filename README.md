@@ -123,11 +123,11 @@
 |119|149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MaxPointsOnALine.java)|Hard|12-08-2020|
 |120|332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ReconstructItinerary.java)|Medium|12-29-2020|
 |121|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQueryImmutable.java)|Easy|01-06-2021|
-|122|304|[Range Sum Query 2D - Immutable *](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQuery2dImmutable.java)|Medium|12-08-2020|
+|122|304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQuery2dImmutable.java)|Medium|01-07-2021|
 |123|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ReshapeTheMatrix.java)|Easy|12-08-2020|
 |124|503|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/NextGreaterElementIi.java)|Medium|01-01-2021|
 |125|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ContainsDuplicate.java)|Easy|12-08-2020|
-|126|697|[Degree of an Array *](https://leetcode.com/problems/degree-of-an-array/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DegreeOfAnArray.java)|Easy|12-08-2020|
+|126|697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DegreeOfAnArray.java)|Easy|01-09-2021|
 |127|594|[Longest Harmonious Subsequence *](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestHarmoniousSubsequence.java)|Easy|12-08-2020|
 |128|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/FindTheDuplicateNumber.java)|Medium|12-08-2020|
 |129|313|[Super Ugly Number *](https://leetcode.com/problems/super-ugly-number/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SuperUglyNumber.java)|Medium|12-08-2020|
@@ -140,6 +140,7 @@
 |136|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/GenerateParentheses.java)|Medium|12-15-2020|
 |137|295|[Find Median from Data Stream *](https://leetcode.com/problems/find-median-from-data-stream/)|[Java]()|Hard|12-28-2020|
 |138|503|[]
+|139|670|[Maximum Swap]()|[Java]()|Medium|01-09-2021|
 
 
 ### Schedule
