@@ -39,15 +39,54 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.Collections;
+import java.util.HashMap;
+
 public class DegreeOfAnArray {
     public static void main(String[] args) {
         Solution solution = new DegreeOfAnArray().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    // Method One-pass
     public int findShortestSubArray(int[] nums) {
-        return 0;
+        HashMap<Integer, Integer> first = new HashMap<>(),
+                counts = new HashMap<>();
+        int degree = 0;
+        int res = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int x = nums[i];
+            first.putIfAbsent(x, i);
+            counts.put(x, counts.getOrDefault(x, 0) + 1);
+            if (counts.get(x) > degree) {
+                degree = counts.get(x);
+                res = i - first.get(x) + 1;
+            } else if (counts.get(x) == degree) {
+                res = Math.min(res, i - first.get(x) + 1);
+            }
+        }
+
+        return res;
     }
+//    public int findShortestSubArray(int[] nums) {
+//        HashMap<Integer, Integer> left = new HashMap<>(),
+//                right = new HashMap<>(), counts = new HashMap<>();
+//        for (int i = 0; i < nums.length; i++) {
+//            int x = nums[i];
+//            left.putIfAbsent(x, i);
+//            right.put(x, i);
+//            counts.put(x, counts.getOrDefault(x, 0) + 1);
+//        }
+//        int res = nums.length;
+//        int degree = Collections.max(counts.values());
+//        for (int key : counts.keySet()) {
+//            if (counts.get(key) == degree) {
+//                res = Math.min(res, right.get(key) - left.get(key) + 1);
+//            }
+//        }
+//        return res;
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 

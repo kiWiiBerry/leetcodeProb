@@ -145,12 +145,16 @@
 
 ### Schedule
 Dec 30, 2020
-* 739, 503
-* 303, 697, 594, 870
+* ~~739~~, ~~503~~
+* ~~303~~, ~~697~~
 * 307
 
-Dec 31, 2020
-Sorting, Divide & Conquer
+Jan 10, 2021
+Monotonic Stack
+* 594, 870, 1287, 1475, 670
+
+Jan 11, 2021
+加油
 
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))

@@ -37,6 +37,9 @@
 
 
 package com.yiyiwii.leetcode.editor.en;
+
+import java.util.TreeMap;
+
 public class AdvantageShuffle {
     public static void main(String[] args) {
         Solution solution = new AdvantageShuffle().new Solution();
@@ -44,7 +47,23 @@ public class AdvantageShuffle {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] advantageCount(int[] A, int[] B) {
-        return null;
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        for (int num : A) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+        int[] res = new int[A.length];
+        for (int i = 0; i < A.length; i++) {
+            Integer x = map.higherKey(B[i]);
+            if (x == null) {
+                x = map.firstKey();
+            }
+            map.put(x, map.get(x) - 1);
+            if (map.get(x) == 0) {
+                map.remove(x);
+            }
+            res[i] = x;
+        }
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
