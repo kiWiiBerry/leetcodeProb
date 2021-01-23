@@ -131,7 +131,7 @@
 |127|594|[Longest Harmonious Subsequence *](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestHarmoniousSubsequence.java)|Easy|12-08-2020|
 |128|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/FindTheDuplicateNumber.java)|Medium|12-08-2020|
 |129|313|[Super Ugly Number *](https://leetcode.com/problems/super-ugly-number/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SuperUglyNumber.java)|Medium|12-08-2020|
-|130|870|[Advantage Shuffle *](https://leetcode.com/problems/advantage-shuffle/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/AdvantageShuffle.java)|Medium|12-08-2020|
+|130|870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/AdvantageShuffle.java)|Medium|12-08-2020|
 |131|307|[Range Sum Query - Mutable *](https://leetcode.com/problems/range-sum-query-mutable/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/RangeSumQueryMutable.java)|Medium|12-08-2020|
 |132|438|[Find All Anagrams in A String *](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/FindAllAnagramsinAString.java)|Medium|12-10-2020|
 |133|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LongestValidParentheses.java)|Hard|12-15-2020|
@@ -139,9 +139,15 @@
 |135|650|[2 Keys Keyboard*](https://leetcode.com/problems/2-keys-keyboard/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/TwoKeysKeyboard.java)|Medium|12-15-2020|
 |136|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/GenerateParentheses.java)|Medium|12-15-2020|
 |137|295|[Find Median from Data Stream *](https://leetcode.com/problems/find-median-from-data-stream/)|[Java]()|Hard|12-28-2020|
-|138|503|[]
-|139|670|[Maximum Swap]()|[Java]()|Medium|01-09-2021|
-
+|138|670|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[Java]()|Medium|01-09-2021|
+|139|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java]()|Easy|01-19-2021|
+|140|205|[Isomorphic Strings]()|[Java]()|Easy|01-19-2021|
+|141|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java]()|Medium|01-19-2021|
+|142|438|[Find All Anagrams in a String *](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Java]()|Medium|01-19-2021|
+|143|409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Java]()|Easy|01-19-2021|
+|144|146|[LRU Cache *](https://leetcode.com/problems/lru-cache/)|[Java]()|Medium|01-19-2021|
+|145|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Java]()|Medium|01-19-2021|
+|146|
 
 ### Schedule
 Dec 30, 2020
@@ -151,10 +157,13 @@ Dec 30, 2020
 
 Jan 10, 2021
 Monotonic Stack
-* 594, 870, 1287, 1475, 670
+* 594, ~~870~~, 1475, 670
 
 Jan 11, 2021
-加油
+
+
+Binary Search
+* 1287
 
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
