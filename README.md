@@ -159,7 +159,6 @@ Jan 10, 2021
 Monotonic Stack
 * 594, ~~870~~, 1475, 670
 
-Jan 11, 2021
 
 
 Binary Search
