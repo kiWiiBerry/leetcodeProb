@@ -160,7 +160,6 @@ Monotonic Stack
 * 594, ~~870~~, 1475, 670
 
 
-
 Binary Search
 * 1287
 
