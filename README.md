@@ -148,7 +148,7 @@
 |144|146|[LRU Cache *](https://leetcode.com/problems/lru-cache/)|[Java]()|Medium|01-19-2021|
 |145|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Java]()|Medium|01-19-2021|
 |146|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LinkedListCycle.java)|Easy|02-03-21|
-
+|147|138|[Copy List w/ Random Node](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/CopyListWithRandomPointer.java)|Medium|02-10-21|
 
 ### Schedule
 Dec 30, 2020
