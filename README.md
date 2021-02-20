@@ -151,6 +151,7 @@
 |147|138|[Copy List w/ Random Node](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/CopyListWithRandomPointer.java)|Medium|02-10-21|
 |148|784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/LetterCasePermutation.java)|Medium|02-16-21|
 |149|11|[Container with Most Water](https://leetcode.com/problems/container-with-most-water/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ContainerWithMostWater.java)|Medium|02-17-21|
+|150|1249|[Min Remove, Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MinimumRemoveToMakeValidParentheses.java)|Medium|02-20-21|
 
 
 
