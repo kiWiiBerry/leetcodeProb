@@ -155,22 +155,6 @@
 |151|74|[SearchA2dMatrix.java](https://leetcode.com/problems/search-a-2d-matrix/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SearchA2dMatrix.java)|Medium|02-23-21|
 
 
-### Schedule
-Dec 30, 2020
-* ~~739~~, ~~503~~
-* ~~303~~, ~~697~~
-* 307
-
-Jan 10, 2021
-Monotonic Stack
-* 594, ~~870~~, 1475, ~~670~~
-
-Binary Search
-* 1287
-
-Feb 3, 2021
-Two pointors, Linked List
-
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 
 | Title | Solution | Date |
@@ -183,7 +167,7 @@ Two pointors, Linked List
 | [Jafar Aladdin Checker Game, Similar as Max Depth of Binary Tree](https://webcache.googleusercontent.com/search?q=cache:8YyCWMNWyrEJ:https://leetcode.com/discuss/interview-question/533314/checkers-game-jafar-is-playing-checkers-with-his-friend-alladin+&cd=1&hl=en&ct=clnk&gl=us)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/OthersJafarCheckerGame.java)|11-08-2020|
 | [Minimal Turns of 2 Sets of 6-face Dices Sum to Be Equal](https://leetcode.com/discuss/interview-question/877070/Microsoft-Interview-Question/720312)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MsMinTurnTwoEqualSumDice.java) | 11-08-2020|
 | [Palindrome Linked List, LC234](https://leetcode.com/problems/palindrome-linked-list/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PalindromeLinkedList.java)| 12-06-2020 | 
-
+| [Jump Game](https://algo.monster/problems/jump_game)|[Java]()|03-16-2021|
 
 
 ### Amazon Online Assessment Questions ([Link1](https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions), [Link2](https://algo.monster/problems/amazon_online_assessment_questions))
