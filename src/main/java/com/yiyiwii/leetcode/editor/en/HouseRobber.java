@@ -49,20 +49,44 @@ public class HouseRobber {
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    private int[] memo;
     public int rob(int[] nums) {
-        memo = new int[nums.length];
-        Arrays.fill(memo, -1);
-        return dp(nums, 0);
-    }
-    public int dp(int[] nums, int start) {
-        if (start >= nums.length) return 0;
-        if (memo[start] != -1) return memo[start];
-        int res = Math.max(dp(nums, start + 1), nums[start] + dp(nums, start + 2));
-        memo[start] = res;
-        return res;
+        int rob = 0;
+        int notRob = 0;
+        for (int num : nums) {
+            int pre = Math.max(rob, notRob);
+            rob = num + notRob;
+            notRob = pre;
+        }
+        return Math.max(rob, notRob);
+        // Method 1
+//        if (nums.length == 0) return 0;
+//        if (nums.length <= 2) return Arrays.stream(nums).max().getAsInt();
+//
+//        int[] dp = new int[nums.length + 1];
+//        dp[0] = 0;
+//        dp[1] = nums[0];
+//        for (int i = 2; i < dp.length; i++) {
+//            dp[i] = Math.max(dp[i - 1], nums[i - 1] + dp[i - 2]);
+//        }
+//        return dp[nums.length];
     }
 }
+// Solution 1
+//class Solution {
+//    private int[] memo;
+//    public int rob(int[] nums) {
+//        memo = new int[nums.length];
+//        Arrays.fill(memo, -1);
+//        return dp(nums, 0);
+//    }
+//    public int dp(int[] nums, int start) {
+//        if (start >= nums.length) return 0;
+//        if (memo[start] != -1) return memo[start];
+//        int res = Math.max(dp(nums, start + 1), nums[start] + dp(nums, start + 2));
+//        memo[start] = res;
+//        return res;
+//    }
+//}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
