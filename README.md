@@ -96,7 +96,7 @@
 |92|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BesetTimeToBuyAndSellStock.java)|Easy|12-08-2020|
 |93|188|[Best Time to Buy and Sell Stock IV *](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BestTimeToBuyAndSellStockIv.java)|Hard|12-08-2020|
 |94|309|[Best Time to Buy and Sell Stock with Cooldown *](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/BestTimeToBuyAndSellStockWithCooldown.java)|Medium|12-08-2020|
-|95|213|[House Robber II *](https://leetcode.com/problems/house-robber-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/HouseRobberIi.java)|Medium|12-08-2020|
+|95|213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/HouseRobberIi.java)|Medium|3-22-2021|
 |96|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MaximumSubarray.java)|Easy|12-08-2020|
 |97|343|[Integer Break *](https://leetcode.com/problems/integer-break/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/IntegerBreak.java)|Medium|12-08-2020|
 |98|583|[Delete Operation for Two Strings *](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/DeleteOperationForTwoStrings.java)|Medium|12-08-2020|
@@ -153,6 +153,8 @@
 |149|11|[Container with Most Water](https://leetcode.com/problems/container-with-most-water/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/ContainerWithMostWater.java)|Medium|02-17-21|
 |150|1249|[Min Remove, Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/MinimumRemoveToMakeValidParentheses.java)|Medium|02-20-21|
 |151|74|[SearchA2dMatrix.java](https://leetcode.com/problems/search-a-2d-matrix/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SearchA2dMatrix.java)|Medium|02-23-21|
+|152|337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/HouseRobberIii.java)|Medium|03-22-21|
+|153|256|[Paint House](https://leetcode.com/problems/paint-house/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PaintHouse.java)|[Easy]|03-22-21|
 
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
