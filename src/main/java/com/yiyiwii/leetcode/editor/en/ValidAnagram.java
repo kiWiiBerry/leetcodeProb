@@ -32,7 +32,7 @@ public class ValidAnagram {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isAnagram(String s, String t) {
-        
+        return false;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -155,7 +155,8 @@
 |151|74|[SearchA2dMatrix.java](https://leetcode.com/problems/search-a-2d-matrix/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/SearchA2dMatrix.java)|Medium|02-23-21|
 |152|337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/HouseRobberIii.java)|Medium|03-22-21|
 |153|256|[Paint House](https://leetcode.com/problems/paint-house/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PaintHouse.java)|[Easy]|03-22-21|
-
+|154|265|[paint House II](https://leetcode.com/problems/paint-house-ii/)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/PaintHouseIi.java)|[Hard]|03-24-21|
+|155|
 
 ### Microsoft Online Assessment Questions ([Link](https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions))
 
@@ -177,3 +178,5 @@
 | Title | Solution | Date |
 | ----- | -------- | ---- |
 | [Distance between Binary Search Tree](https://leetcode.com/discuss/interview-question/376375/) | [Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/AmzDistanceBinaryTree.java) | 10-21-2020|
+| [Transaction Logs](https://leetcode.com/discuss/interview-question/989768/Amazon-or-OA-2020-or-Transaction-logs)|[Java](https://github.com/yiyiwii/leetcodeProb/blob/master/src/main/java/com/yiyiwii/leetcode/editor/en/AmzTransactionLogs.java)| 06-02-2021|
+| []
