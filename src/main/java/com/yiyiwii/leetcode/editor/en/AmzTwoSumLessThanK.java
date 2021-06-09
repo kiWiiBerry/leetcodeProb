@@ -1,3 +1,8 @@
+/**
+ * John wants to choose 2 movies when on flight
+ * Given a list of movie lengths, and the flight length
+ *
+ * */
 package com.yiyiwii.leetcode.editor.en;
 
 import java.util.Arrays;

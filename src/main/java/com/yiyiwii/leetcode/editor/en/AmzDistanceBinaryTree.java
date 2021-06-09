@@ -1,5 +1,5 @@
 // Amazon OA, distance between two nodes in BST
-//Given a list of unique integers nums, construct a BST from it (you need to
+// Given a list of unique integers nums, construct a BST from it (you need to
 //        insert nodes one-by-one with the given order to get the BST) and find
 //        the distance between two nodes node1 and node2. Distance is the number
 //        of edges between two nodes. If any of the given nodes does not appear
