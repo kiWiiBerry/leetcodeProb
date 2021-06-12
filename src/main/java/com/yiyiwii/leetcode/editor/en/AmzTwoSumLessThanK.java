@@ -12,16 +12,20 @@ import java.util.List;
 public class AmzTwoSumLessThanK {
     public static void main(String[] args) {
 
-        int[] movie_duration1 = {90, 85, 75, 60, 120, 150, 125};
-        int d1 = 250;
+//        int[] movie_duration1 = {90, 85, 75, 60, 120, 150, 125};
+//        int d1 = 250;
         Solution sol = new AmzTwoSumLessThanK().new Solution();
-        System.out.println(Arrays.toString(sol.solve(movie_duration1,d1)));
-        int[] movie_duration2 = {90, 85, 75, 60, 155, 150, 125};
-        int d2 = 250;
-        System.out.println(Arrays.toString(sol.solve(movie_duration2,d2)));
-        int[] movie_duration3 = {90, 85, 75, 60, 120, 110, 110, 150, 125};
-        int d3 = 250;
-        System.out.println(Arrays.toString(sol.solve(movie_duration3,d3)));
+//        System.out.println(Arrays.toString(sol.solve(movie_duration1,d1)));
+//        int[] movie_duration2 = {90, 85, 75, 60, 155, 150, 125};
+//        int d2 = 250;
+//        System.out.println(Arrays.toString(sol.solve(movie_duration2,d2)));
+//        int[] movie_duration3 = {90, 85, 75, 60, 120, 110, 110, 150, 125};
+//        int d3 = 250;
+//        System.out.println(Arrays.toString(sol.solve(movie_duration3,d3)));
+
+        int[] movie_duration4 = {10,20,30,30,40};
+        int d4 = 90;
+        System.out.println(Arrays.toString(sol.solve(movie_duration4,d4)));
     }
     //using sorting
     class Solution {
