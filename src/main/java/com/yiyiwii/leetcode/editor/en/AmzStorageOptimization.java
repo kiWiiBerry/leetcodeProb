@@ -29,3 +29,29 @@ public class AmzStorageOptimization {
 
     }
 }
+
+//    public static int storageOptimzation(int n, int m, int[] hRemove, int[] vRemove) {
+//        Set<Integer> hRemoved = new HashSet<>();
+//        Set<Integer> vRemoved = new HashSet<>();
+//        for (int r : hRemove)
+//            hRemoved.add(r);
+//        for (int r : vRemove)
+//            vRemoved.add(r);
+//
+//        int prevH = 0;
+//        int maxHDiff = 0;
+//        for (int h = 1; h <= n + 1; h++) {
+//            maxHDiff = Math.max(h - prevH, maxHDiff);
+//            if (!hRemoved.contains(h))
+//                prevH = h;
+//        }
+//        int prevV = 0;
+//        int maxVDiff = 0;
+//        for (int v = 1; v <= m + 1; v++) {
+//            maxVDiff = Math.max(v - prevV, maxVDiff);
+//            if (!vRemoved.contains(v))
+//                prevV = v;
+//        }
+//
+//        return maxHDiff * maxVDiff;
+//    }
