@@ -75,32 +75,60 @@ class Solution {
         mergSort(nums, indices, tmp, mid + 1, end);
         merge(nums, indices, tmp, start, mid, end);
     }
-    private void merge(int[] nums, int[] indices, int[] tmp, int start, int mid, int end){
-        int left = start, right = mid + 1;
-        int rCnt = 0;
-        for (int i = start; i <= end; i++) {
-            tmp[i] = indices[i];
-        }
-        for (int i = start; i <= end; i++) {
-            if (left > mid) {
-                // All items in left array are in sorted array
-                indices[i] = tmp[right++];
-            } else if (right > end) {
-                // All items in right array are in sorted array,
-                // they are smaller than left array, need to swap
-                indices[i] = tmp[left];
-                count[tmp[left++]] += rCnt;
-            } else if (nums[tmp[right]] < nums[tmp[left]]) {
-                // item in right smaller than item in left, need to swap
-                indices[i] = tmp[right++];
-                rCnt++;
-            } else {
-                // item in left smaller than item in right
-                indices[i] = tmp[left];
-                count[tmp[left++]] += rCnt;
+
+        private void merge(int[] nums, int[] indices, int[] tmp, int start, int mid, int end){
+            int left = start, right = mid + 1;
+            int rCnt = 0;
+            for (int i = start; i <= end; i++) {
+                tmp[i] = indices[i];
+            }
+            for (int i = start; i <= end; i++) {
+                if (left > mid) {
+                    // All items in left array are in sorted array
+                    indices[i] = tmp[right++];
+                } else if (right > end) {
+                    // All items in right array are in sorted array,
+                    // they are smaller than left array, need to swap
+                    indices[i] = tmp[left];
+                    count[tmp[left++]] += rCnt;
+                } else if (nums[tmp[right]] < nums[tmp[left]]) {
+                    // item in right smaller than item in left, need to swap
+                    indices[i] = tmp[right++];
+                    rCnt++;
+                } else {
+                    // item in left smaller than item in right
+                    indices[i] = tmp[left];
+                    count[tmp[left++]] += rCnt;
+                }
             }
         }
-    }
+
+//    private void merge(int[] nums, int[] indices, int[] tmp, int start, int mid, int end){
+//        int left = start, right = mid + 1;
+//        int rCnt = 0;
+//        for (int i = start; i <= end; i++) {
+//            tmp[i] = indices[i];
+//        }
+//        for (int i = start; i <= end; i++) {
+//            if (left > mid) {
+//                // All items in left array are in sorted array
+//                indices[i] = tmp[right++];
+//            } else if (right > end) {
+//                // All items in right array are in sorted array,
+//                // they are smaller than left array, need to swap
+//                indices[i] = tmp[left];
+//                count[tmp[left++]] += rCnt;
+//            } else if (nums[tmp[right]] < nums[tmp[left]]) {
+//                // item in right smaller than item in left, need to swap
+//                indices[i] = tmp[right++];
+//                rCnt++;
+//            } else {
+//                // item in left smaller than item in right
+//                indices[i] = tmp[left];
+//                count[tmp[left++]] += rCnt;
+//            }
+//        }
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 

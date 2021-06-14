@@ -70,6 +70,39 @@ public class AmzItemInContainer {
             }
             System.out.println(Arrays.toString(res.toArray()));
             return res;
+
+//            List<Integer> result = new ArrayList<>();
+
+//    if (s == null || s.isEmpty()) {
+//        return result;
+//    }
+//     
+//    char[] charArray = s.toCharArray();
+//    List<Integer> pipePositions = new ArrayList<>();
+//    int[] nextIndexInPipePositions = new int[charArray.length]; //for each character in the string, the valid counting point will be from the position indicated by the index of pipePositions. for example, "**|**|" the pipePositions will be [2,5] and nextIndexInPipePositions will be [0,0,0,1,1,1] indicating [2,2,2,5,5,5]
+//    for (int i = 0; i < charArray.length; i++) {
+//        nextIndexInPipePositions[i] = pipePositions.size();
+//        if (charArray[i] == '|') {
+//            pipePositions.add(i);
+//        }
+//    }
+//     
+//    int indicesSize = Math.min(startIndices.size(), endIndices.size());
+//    for (int i = 0; i < indicesSize; i++) {
+//        int firstPipePositionIndex = nextIndexInPipePositions[startIndices.get(i) - 1];
+//        int lastPipePositionIndex = nextIndexInPipePositions[endIndices.get(i) - 1];
+//        if (charArray[endIndices.get(i) - 1] != '|') { //the next pipe is after the endIndex - should count to the previous pipe
+//            lastPipePositionIndex--;
+//        }
+//        if (lastPipePositionIndex > firstPipePositionIndex) {
+//            // count of *s = the total distance between the first pipe and the last pipe - the pipe count between the fist piple and the last pipe
+//            result.add(pipePositions.get(lastPipePositionIndex) - pipePositions.get(firstPipePositionIndex) - lastPipePositionIndex + firstPipePositionIndex);
+//        } else { // no pipe or only one pipe between
+//            result.add(0);
+//        }
+//    }
+//     
+//    return result;
         }
     }
 }
