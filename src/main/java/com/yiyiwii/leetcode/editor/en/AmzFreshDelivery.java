@@ -20,7 +20,7 @@ public class AmzFreshDelivery {
                 }
             }
             res = pq.toArray(new int[K][2]);
-            Arrays.sort(res, Comparator.comparing(x -> ((int[])x)[0]).thenComparing(x -> ((int[])x)[1]));
+            Arrays.sort(res, Comparator.comparing(x -> ((int[])x)[0] ).thenComparing(x -> ((int[])x)[1]));
             return res;
         }
     }
