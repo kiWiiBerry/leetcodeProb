@@ -64,7 +64,7 @@
 
 package com.yiyiwii.leetcode.editor.en;
 
-import java.util.List;
+import java.util.*;
 
 public class MinimumHeightTrees {
     public static void main(String[] args) {
@@ -73,6 +73,30 @@ public class MinimumHeightTrees {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
+        List<Integer> res = new LinkedList<Integer>();
+        if (n == 1) {
+            return res;
+        }
+        List<Set<Integer>> adjList = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            adjList.add(new HashSet<Integer>());
+        }
+        for (int[] edge : edges) {
+            adjList.get(edge[0]).add(edge[1]);
+            adjList.get(edge[1]).add(edge[0]);
+        }
+        for (int i = 0; i < n; i++) {
+            if (adjList.get(i).size() == 1) {
+                res.add(i);
+            }
+        }
+        while (n > 2) {
+            n -= res.size();
+            List<Integer> newLeaves = new ArrayList<>();
+            for (int i : res) {
+                int j = adjList.get(i).iterator().next();
+            }
+        }
         return null;
     }
 }
