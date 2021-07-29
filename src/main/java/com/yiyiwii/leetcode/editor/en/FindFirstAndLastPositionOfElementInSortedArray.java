@@ -33,11 +33,36 @@ package com.yiyiwii.leetcode.editor.en;
 public class FindFirstAndLastPositionOfElementInSortedArray {
     public static void main(String[] args) {
         Solution solution = new FindFirstAndLastPositionOfElementInSortedArray().new Solution();
+        int[] nums = {5,7,7,8,8,10};
+        int target = 8;
+        solution.searchRange(nums, target);
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-        return null;
+        if (nums == null || nums.length == 0) {
+            return new int[]{-1,-1};
+        }
+        int left = 0, right = nums.length - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] <= target) {
+                left = mid;
+            } else {
+                right = mid - 1;
+            }
+        }
+        System.out.println(nums[left] + ", " + nums[right]);
+//        int last = left;
+//        if (nums[left] != target) {
+            return new int[]{-1,-1};
+//        }
+//        int first = last;
+//        while (first - 1 >= 0 && nums[first] == nums[first - 1]) {
+//            first--;
+//        }
+//        return new int[]{first, last};
+
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
